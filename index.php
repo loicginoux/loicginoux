@@ -380,7 +380,7 @@
 						<div class="5grid">
 							<div class="row">
 								<div class="12u">
-									<form method="post" method="post" action="email_form.php">
+									<form method="post" method="post" action="send_email.php">
 										<div class="5grid">
 											<div class="row">
 												<div class="6u">
