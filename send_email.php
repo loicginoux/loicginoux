@@ -84,6 +84,6 @@ if(isset($_POST['email'])) {
       'auth' => true));
 
   $mail = $smtp->send($email_to, $headers, $email_message);
-  echo $mail
+  echo $mail;
 }
 ?>
