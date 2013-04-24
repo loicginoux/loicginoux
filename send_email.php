@@ -75,8 +75,8 @@ if(isset($_POST['email'])) {
 
   $smtp = Mail::factory('smtp',
   	array(
-      'host' => 'tls://smtp.sendgrid.net',
-      'host' => 'tls://smtp.sendgrid.net',
+      'host' => 'smtp.sendgrid.net',
+      // 'host' => 'tls://smtp.sendgrid.net',
       'IDHost' => 'heroku.com',
       'port' => 587,
       'username' => getenv("SENDGRID_USERNAME"),
