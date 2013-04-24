@@ -85,7 +85,7 @@ $(function() {
 			$("input#subject").focus();
 			return false;
 		}
-		var message = $("input#message").val();
+		var message = $("textarea#message").val();
 		if (message == "") {
 			$("label#message_error").show();
 			$("textarea#message").focus();
