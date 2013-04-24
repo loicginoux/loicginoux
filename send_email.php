@@ -1,6 +1,6 @@
 <?php
 
-require_once 'Mail.php';
+include 'sendgrid-php/SendGrid_loader.php';
 
 if(isset($_POST['email'])) {
 
@@ -65,25 +65,38 @@ if(isset($_POST['email'])) {
   // 'Reply-To: '.$email_from."\r\n" .
   // 'X-Mailer: PHP/' . phpversion();
 
-  $headers = array ('From' => $email_from,
-    'To' => $email_to,
-  'Subject' => $subject);
-  // 'Mime-version' => $mime,
-  // 'Content-Type' => $content,
-  // 'charset' => $charset);
+  // $headers = array ('From' => $email_from,
+  //   'To' => $email_to,
+  // 'Subject' => $subject);
+  // // 'Mime-version' => $mime,
+  // // 'Content-Type' => $content,
+  // // 'charset' => $charset);
 
 
-  $smtp = Mail::factory('smtp',
-  	array(
-      'host' => 'smtp.sendgrid.net',
-      // 'host' => 'tls://smtp.sendgrid.net',
-      'IDHost' => 'heroku.com',
-      'port' => 587,
-      'username' => getenv("SENDGRID_USERNAME"),
-      'password' => getenv("SENDGRID_PASSWORD"),
-      'auth' => true));
+  // $smtp = Mail::factory('smtp',
+  // 	array(
+  //     'host' => 'smtp.sendgrid.net',
+  //     // 'host' => 'tls://smtp.sendgrid.net',
+  //     'IDHost' => 'heroku.com',
+  //     'port' => 587,
+  //     'username' => getenv("SENDGRID_USERNAME"),
+  //     'password' => getenv("SENDGRID_PASSWORD"),
+  //     'auth' => true));
 
-  $mail = $smtp->send($email_to, $headers, $email_message);
-  echo $mail;
+  // $mail = $smtp->send($email_to, $headers, $email_message);
+
+  $sendgrid = new SendGrid(getenv("SENDGRID_USERNAME"), getenv("SENDGRID_PASSWORD"));
+
+  $mail = new SendGrid\Mail();
+  $mail->
+     addTo($email_to)->
+     setFrom('app11445063@heroku.com')->
+     setSubject('Subject goes here')->
+     setText('Hello World!')->
+     setHtml('<strong>Hello World!</strong>');
+
+  $sendgrid->
+    smtp->
+     send($mail);
 }
 ?>
