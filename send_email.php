@@ -67,7 +67,6 @@ if(isset($_POST['email'])) {
      addTo($email_to)->
      setFrom('app11445063@heroku.com')->
      setSubject($email_subject)->
-     setText($email_message);
      setHtml($email_message);
 
   $sendgrid->
