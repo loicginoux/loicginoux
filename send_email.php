@@ -2,6 +2,7 @@
 
 require_once 'Mail.php';
 
+echo "in"
 if(isset($_POST['email'])) {
 
   // EDIT THE 2 LINES BELOW AS REQUIRED
@@ -18,6 +19,7 @@ if(isset($_POST['email'])) {
       die();
   }
 
+  echo "test"
   // validation expected data exists
   if(!isset($_POST['name']) ||
       !isset($_POST['email']) ||
@@ -60,7 +62,7 @@ if(isset($_POST['email'])) {
   $email_message .= "Subject: ".clean_string($subject)."\n";
   $email_message .= "Message: ".clean_string($message)."\n";
 
-
+  echo $email_message
   // create email headers
   // $headers = 'From: '.$email_from."\r\n".
   // 'Reply-To: '.$email_from."\r\n" .
