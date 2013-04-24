@@ -60,30 +60,6 @@ if(isset($_POST['email'])) {
   $email_message .= "Subject: ".clean_string($subject)."\n";
   $email_message .= "Message: ".clean_string($message)."\n";
 
-  // create email headers
-  // $headers = 'From: '.$email_from."\r\n".
-  // 'Reply-To: '.$email_from."\r\n" .
-  // 'X-Mailer: PHP/' . phpversion();
-
-  // $headers = array ('From' => $email_from,
-  //   'To' => $email_to,
-  // 'Subject' => $subject);
-  // // 'Mime-version' => $mime,
-  // // 'Content-Type' => $content,
-  // // 'charset' => $charset);
-
-
-  // $smtp = Mail::factory('smtp',
-  // 	array(
-  //     'host' => 'smtp.sendgrid.net',
-  //     // 'host' => 'tls://smtp.sendgrid.net',
-  //     'IDHost' => 'heroku.com',
-  //     'port' => 587,
-  //     'username' => getenv("SENDGRID_USERNAME"),
-  //     'password' => getenv("SENDGRID_PASSWORD"),
-  //     'auth' => true));
-
-  // $mail = $smtp->send($email_to, $headers, $email_message);
 
   $sendgrid = new SendGrid(getenv("SENDGRID_USERNAME"), getenv("SENDGRID_PASSWORD"));
 
@@ -92,11 +68,16 @@ if(isset($_POST['email'])) {
      addTo($email_to)->
      setFrom('app11445063@heroku.com')->
      setSubject($email_subject)->
-     setText('Hello World!')->
-     setHtml('<strong>Hello World!</strong>');
+     setText($email_message);
 
   $sendgrid->
     web->
       send($mail);
+
+  // $url = "index.php#contact"
+  // $p = "?sent=ok"
+  // $anchor = "#contact-form"
+  // header("location:".$url.$p.$anchor);
+  // die();
 }
 ?>

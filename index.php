@@ -21,8 +21,7 @@
 	<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
 	<!--[if lte IE 7]><link rel="stylesheet" href="css/ie7.css" /><![endif]-->
 	<script src="js/jquery-1.9.1.min.js"></script>
-	<script src="js/lightbox.js"></script>
-<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+	<script type="text/javascript" src="js/jquery.fancybox.js"></script>
 
 	<script src="js/init.js"></script>
 </head>
@@ -380,29 +379,39 @@
 						<div class="5grid">
 							<div class="row">
 								<div class="12u">
-									<form method="post" method="post" action="send_email.php">
+									<form name="contact" action="">
 										<div class="5grid">
 											<div class="row">
 												<div class="6u">
 													<input type="text" name="name" id="name" placeholder="Name" />
+													<label class="error" for="name" id="name_error">How should I call you?</label>
 												</div>
 												<div class="6u">
 													<input type="text" name="email" id="email" placeholder="Email" />
+													<label class="error" for="email" id="email_error">A valid email, please!</label>
 												</div>
 											</div>
 											<div class="row">
 												<div class="12u">
 													<input type="text" name="subject" id="subject" placeholder="Subject" />
+													<label class="error" for="subject" id="subject_error">Just saying 'Hi' is fine, you don't want to?</label>
+
 												</div>
 											</div>
 											<div class="row">
 												<div class="12u">
 													<textarea name="message" id="message" placeholder="Message"></textarea>
+													<label class="error" for="email" id="email_error">Are you sure you don't want to write a little something?</label>
+
 												</div>
 											</div>
 											<div class="row">
 												<div class="12u">
 													<a href="#" class="button form-button-submit">Send Message</a>
+												</div>
+												<div class="12u">
+													<p class="email-sent hide">Email Sent!</p>
+													<p class="email-sent hide">We will be in touch soon</p>
 												</div>
 											</div>
 										</div>
