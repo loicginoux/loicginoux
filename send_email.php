@@ -96,7 +96,7 @@ if(isset($_POST['email'])) {
      setHtml('<strong>Hello World!</strong>');
 
   $sendgrid->
-    smtp->
-     send($mail);
+    web->
+      send($mail);
 }
 ?>
