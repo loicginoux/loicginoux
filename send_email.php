@@ -5,7 +5,7 @@ require('sendgrid-php/SendGrid_loader.php');
 if(isset($_POST['email'])) {
 
   // EDIT THE 2 LINES BELOW AS REQUIRED
-  $email_to = "lginoux.pro@ygmail.com";
+  $email_to = "lginoux.pro@gmail.com";
   $email_subject = "[loicginoux.com] New message";
 
 
@@ -91,7 +91,7 @@ if(isset($_POST['email'])) {
   $mail->
      addTo($email_to)->
      setFrom('app11445063@heroku.com')->
-     setSubject('Subject goes here')->
+     setSubject($email_subject)->
      setText('Hello World!')->
      setHtml('<strong>Hello World!</strong>');
 
