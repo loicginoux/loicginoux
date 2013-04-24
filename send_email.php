@@ -1,6 +1,6 @@
 <?php
 
-include 'sendgrid-php/SendGrid_loader.php';
+require('sendgrid-php/SendGrid_loader.php');
 
 if(isset($_POST['email'])) {
 
