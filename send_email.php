@@ -48,17 +48,16 @@ if(isset($_POST['email'])) {
   if(strlen($error_message) > 0) {
     died($error_message);
   }
-  $email_message = "Form details below.\n\n";
 
   function clean_string($string) {
     $bad = array("content-type","bcc:","to:","cc:","href");
     return str_replace($bad,"",$string);
   }
 
-  $email_message .= "Name: ".clean_string($name)."\n";
-  $email_message .= "Email: ".clean_string($email_from)."\n";
-  $email_message .= "Subject: ".clean_string($subject)."\n";
-  $email_message .= "Message: ".clean_string($message)."\n";
+  $email_message = "<p>Name: ".clean_string($name)."</p>";
+  $email_message .= "<p>Email: ".clean_string($email_from)."</p>";
+  $email_message .= "<p>Subject: ".clean_string($subject)."</p>";
+  $email_message .= "<p>Message: ".clean_string($message)."</p>";
 
 
   $sendgrid = new SendGrid(getenv("SENDGRID_USERNAME"), getenv("SENDGRID_PASSWORD"));
@@ -69,6 +68,7 @@ if(isset($_POST['email'])) {
      setFrom('app11445063@heroku.com')->
      setSubject($email_subject)->
      setText($email_message);
+     setHtml($email_message);
 
   $sendgrid->
     web->

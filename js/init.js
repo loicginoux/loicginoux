@@ -99,7 +99,9 @@ $(function() {
 			url: "send_email.php",
 			data: dataString,
 			success: function() {
-				$(".email-sent").removeClass("hide")
+				$(".email-sent").hide()
+					.removeClass("hide")
+					.fadeIn(1000);
 			}
 		});
 		return false;

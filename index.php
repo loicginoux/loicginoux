@@ -401,7 +401,7 @@
 											<div class="row">
 												<div class="12u">
 													<textarea name="message" id="message" placeholder="Message"></textarea>
-													<label class="error" for="email" id="email_error">Are you sure you don't want to write a little something?</label>
+													<label class="error" for="message" id="message_error">Are you sure you don't want to write a little something?</label>
 
 												</div>
 											</div>
@@ -409,9 +409,11 @@
 												<div class="12u">
 													<a href="#" class="button form-button-submit">Send Message</a>
 												</div>
+											</div>
+											<div class="row">
 												<div class="12u">
-													<p class="email-sent hide">Email Sent!</p>
-													<p class="email-sent hide">We will be in touch soon</p>
+													<h3 class="email-sent hide">Email Sent!</h3>
+													<h3 class="email-sent hide">We will be in touch soon.</h3>
 												</div>
 											</div>
 										</div>
