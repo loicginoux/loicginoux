@@ -7,23 +7,21 @@
 <html>
 <head>
 	<link rel="shortcut icon" href="~/favicon.ico" />
-	<title>Loic Ginoux, Professional Freelance Web and Software Engineer</title>
+	<title>Loic Ginoux, Professional Freelance Web Application Engineer</title>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="description" content="Professional freelance web engineer specialized in web applications. Mainly working with Ruby on Rails and Javascript." />
-	<meta name="keywords" content="" />
+	<meta name="keywords" content="Profesional Freelance web engineer, Ruby on Rails developer, Javascript Developer, web aplication developer, web project management, web contractor" />
+
 	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" />
 	<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
 	<script src="js/5grid.js">{preset:'legacy',prefix:'css/style',breakpoints:{'desktop':{grid:{gutters:4}}}}</script>
 	<noscript><link rel="stylesheet" href="css/5grid-noscript.css" /><link rel="stylesheet" href="css/style.css" /><link rel="stylesheet" href="css/style-desktop.css" /></noscript>
+
 	<link rel="stylesheet" href="css/bootstrap-modal.css"></script>
 	<link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
 	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
 	<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
 	<!--[if lte IE 7]><link rel="stylesheet" href="css/ie7.css" /><![endif]-->
-	<script src="js/jquery-1.9.1.min.js"></script>
-	<script type="text/javascript" src="js/jquery.fancybox.js"></script>
-
-	<script src="js/init.js"></script>
 </head>
 <body data-spy="scroll" data-target="#nav" data-offset="120">
 
@@ -36,6 +34,7 @@
 			<li class="active"><a href="#top">Top</a></li>
 			<li><a href="#work">Work</a></li>
 			<li><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#cv" target="_blank">CV</a></li>
 			<li><a href="#contact">Contact</a></li>
 		</ul>
 	</nav>
@@ -49,22 +48,10 @@
 				</div>
 				<div class="8u">
 					<header>
-						<h1>Hi. I'm <strong>Loic Ginoux</strong>.</h1>
+						<h1>Hi. I'm <strong>Loïc Ginoux</strong>.</h1>
 					</header>
-					<p>I am a <strong>freelance IT engineer</strong>, specialized in web applications.</p>
+					<p>I am a <strong>freelance IT engineer</strong> specialized in web applications.</p>
 					<a href="#work" class="button button-big">Learn more about me</a>
-							<!-- <p>things to do:</p>
-							<ul>
-								<li>light up menu when navigate</li>
-								<li>emailing</li>
-								<li>favicon</li>
-								<li>include cv</li>
-								<li>light up photo hover</li>
-								<li>try colored background</li>
-								<li>try parralax</li>
-								<li>keyword header</li>
-							</ul> -->
-						</div>
 					</div>
 				</article>
 			</div>
@@ -145,7 +132,7 @@
 							<div class="3u">
 								<article class="box clickable box-style2 foodrubix">
 									<a  href="#myModal" class="image image-full" data-toggle="modal">
-										<img src="images/foodRubix/foodRubix2_med.png" alt="foodrubix intro" />
+										<img class="lazy" src="images/grey.gif" data-original="images/foodRubix/foodRubix2_med.png" alt="foodrubix intro" />
 									</a>
 									<h3>FoodRubix</h3>
 									<p>A visual food diary for tracking what your food consumption looks like over a range of time.</p>
@@ -156,7 +143,7 @@
 							<div class="3u">
 								<article class="box clickable box-style2 onbrand">
 									<a href="#" class="image image-full">
-										<img src="images/onbrand/OnBrand_CW_Screen1_ProjectStages_Annotation_Med.jpg" alt="onbrand intro" />
+										<img class="lazy" src="images/grey.gif" data-original="images/onbrand/OnBrand_CW_Screen1_ProjectStages_Annotation_Med.jpg" alt="onbrand intro" />
 									</a>
 									<h3>On Brand Application</h3>
 									<p>A modular Saas solution for managing brands, used by Shell, Diageo and Nestle among others.</p>
@@ -167,7 +154,7 @@
 							<div class="3u">
 								<article class="box clickable box-style2 diageo">
 									<a href="#" class="image image-full">
-										<img src="images/diageo/diageo4_med.png" alt="diageo intro" />
+										<img class="lazy" src="images/grey.gif" data-original="images/diageo/diageo4_med.png" alt="diageo intro" />
 									</a>
 									<h3>Diageo SmartBrand</h3>
 									<p>world's leading premium drinks business, Diageo has a portal used globally to manage their assets, marketing projects, customers...</p>
@@ -178,7 +165,7 @@
 							<div class="3u">
 								<article class="box clickable box-style2 kts">
 									<a href="#" class="image image-full">
-										<img src="images/kts/kts1_med.png" alt="kts intro" />
+										<img class="lazy" src="images/grey.gif" data-original="images/kts/form_KTS.png" alt="kts intro" />
 									</a>
 									<h3>Kite Tarifa School.</h3>
 									<p>A web application that let them manage students, products and second hand materials.</p>
@@ -204,25 +191,25 @@
 									<div class="row image_gallery foodRubix">
 										<div class="3u">
 											<a class="lightbox" rel="gallery1" href="images/foodRubix/foodRubix1_med.png">
-												<img src="images/foodRubix/foodRubix1_small.png" alt="Marketing page" title="Click for a larger image">
+												<img class="lazy" src="images/grey.gif" data-original="images/foodRubix/foodRubix1_small.png" alt="Marketing page" title="Click for a larger image">
 												<div class="note">Marketing page</div>
 											</a>
 										</div>
 										<div class="3u">
 											<a class="lightbox" rel="gallery1" href="images/foodRubix/foodRubix2_med.png">
-												<img src="images/foodRubix/foodRubix2_small.png" alt="Week meals view" title="Click for a larger image">
+												<img class="lazy" src="images/grey.gif" data-original="images/foodRubix/foodRubix2_small.png" alt="Week meals view" title="Click for a larger image">
 												<div class="note">Week meals view  </div>
 											</a>
 										</div>
 										<div class="3u">
 											<a class="lightbox" rel="gallery1" href="images/foodRubix/foodRubix3_med.png">
-												<img src="images/foodRubix/foodRubix3_small.png" alt="Meal view modal box" title="Click for a larger image">
+												<img class="lazy" src="images/grey.gif" data-original="images/foodRubix/foodRubix3_small.png" alt="Meal view modal box" title="Click for a larger image">
 												<div class="note">Meal view modal box </div>
 											</a>
 										</div>
 										<div class="3u">
 											<a class="lightbox" rel="gallery1" href="images/foodRubix/foodRubix4_med.png">
-												<img src="images/foodRubix/foodRubix4_small.png" alt="New Upload modal box" title="Click for a larger image">
+												<img class="lazy" src="images/grey.gif" data-original="images/foodRubix/foodRubix4_small.png" alt="New Upload modal box" title="Click for a larger image">
 
 												<div class="note">New Upload modal box</div>
 											</a>
@@ -242,38 +229,38 @@
 									<p>The module I worked on is designed to manage the workflow of marketing projects.</p>
 									<p>On this project I was responsible for developing the front end code for this module. Using an in-house oriented object javascript framework for complex javascript applications ( similar to <a href="http://documentcloud.github.com/backbone/">Backbone.js</a>). The design of the framework architecture allowed us to have an application that is:</p>
 									<ul>
-										<li>modular</li>
-										<li>maintainable</li>
-										<li>extendable</li>
+										<li>- modular</li>
+										<li>- maintainable</li>
+										<li>- extendable</li>
 									</ul>
 									<p>The technical challenges we faced during the development were:</p>
 									<ul>
-										<li>managing multiple users and permissions</li>
-										<li>having a strong and powerful search for assets using <a href="http://en.wikipedia.org/wiki/Apache_Solr">Solr</a></li>
-										<li>making the application out of the box ,easily deployable, maintainable and customisable for different customers and brands</li>
+										<li>- managing multiple users and permissions</li>
+										<li>- having a strong and powerful search for assets using <a href="http://en.wikipedia.org/wiki/Apache_Solr">Solr</a></li>
+										<li>- making the application out of the box ,easily deployable, maintainable and customisable for different customers and brands</li>
 									</ul>
 									<div class="row image_gallery onbrand">
 										<div class="3u">
 											<a class="lightbox" rel="gallery2" href="images/onbrand/OnBrand_CW_Screen1_ProjectStages_Annotation_Med.jpg">
-												<img src="images/onbrand/OnBrand_CW_Screen1_ProjectStages_Annotation_Small.jpg" alt="Project Stages and Annotations" title="Click for a larger view">
+												<img class="lazy" src="images/grey.gif" data-original="images/onbrand/OnBrand_CW_Screen1_ProjectStages_Annotation_Small.jpg" alt="Project Stages and Annotations" title="Click for a larger view">
 												<div class="note">Project Stages and Annotations</div>
 											</a>
 										</div>
 										<div class="3u">
 											<a class="lightbox" rel="gallery2" href="images/onbrand/OnBrand_CW_Screen1_MyProjects_Med.jpg">
-												<img src="images/onbrand/OnBrand_CW_Screen1_MyProjects_Small.jpg" alt="My Projects" title="Click for a larger view">
+												<img class="lazy" src="images/grey.gif" data-original="images/onbrand/OnBrand_CW_Screen1_MyProjects_Small.jpg" alt="My Projects" title="Click for a larger view">
 												<div class="note">My Projects</div>
 											</a>
 										</div>
 										<div class="3u">
 											<a class="lightbox" rel="gallery2" href="images/onbrand/OnBrand_CW_Screen1_ProjectDetail_Med.jpg">
-												<img src="images/onbrand/OnBrand_CW_Screen1_ProjectDetail_Small.jpg" alt="Project Details" title="Click for a larger view">
+												<img class="lazy" src="images/grey.gif" data-original="images/onbrand/OnBrand_CW_Screen1_ProjectDetail_Small.jpg" alt="Project Details" title="Click for a larger view">
 												<div class="note">Project Details</div>
 											</a>
 										</div>
 										<div class="3u">
 											<a class="lightbox" rel="gallery2" href="images/onbrand/OnBrand_CW_Screen1_ProjectAssets_Med.jpg">
-												<img src="images/onbrand/OnBrand_CW_Screen1_ProjectAssets_Small.jpg" alt="Project Assets" title="Click for a larger view">
+												<img class="lazy" src="images/grey.gif" data-original="images/onbrand/OnBrand_CW_Screen1_ProjectAssets_Small.jpg" alt="Project Assets" title="Click for a larger view">
 												<div class="note">Project Assets</div>
 											</a>
 										</div>
@@ -288,24 +275,28 @@
 							<div class="12u">
 								<article class="box box-style2">
 									<h3>Kite Tarifa School.</h3>
-									<p>TODO</p>
+									<p>While I worked as a Kitesurf Instructor in <a href="http://www.ktstarifa.com">KTS</a> (Tarifa, Spain), I also built their website and a web application that help them working more efficiently.</p>
+									<p>While the website is a simple Joomla website, the application is composed in two parts.</p>
+									<p>The school manager helps with registering new students preformatting a contract and manage rented equipments and hours done.</p>
+									<p>The shop manager is a simple stock control application for the kitesurf shop that let them manage products, quantities, dealers and second hand equipment.</p>
+									<p>This app was made with Ruby on Rails and an administration framework called Active Admin.</p>
 									<div class="row image_gallery kts">
-										<div class="3u">
-											<a class="lightbox" rel="gallery3" href="images/kts/kts1_med.png">
-												<img src="images/kts/kts1_small.png" alt="Homepage header" title="Click for a larger view">
-												<div class="note">Homepage header</div>
+										<div class="4u">
+											<a class="lightbox" rel="gallery3" href="images/kts/home_KTS.png">
+												<img class="lazy" src="images/grey.gif" data-original="images/kts/home_KTS.png" alt="Homepage header" title="Click for a larger view">
+												<div class="note">Homepage of website</div>
 											</a>
 										</div>
-										<div class="3u">
-											<a class="lightbox" rel="gallery3" href="images/kts/kts2_med.png">
-												<img src="images/kts/kts2_small.png" alt="Footer" title="Click for a larger view">
-												<div class="note">Footer</div>
+										<div class="4u">
+											<a class="lightbox" rel="gallery3" href="images/kts/dashboard_KTS.png">
+												<img class="lazy" src="images/grey.gif" data-original="images/kts/dashboard_KTS.png" alt="Footer" title="Click for a larger view">
+												<div class="note">App Dashboard</div>
 											</a>
 										</div>
-										<div class="3u">
-											<a class="lightbox" rel="gallery3" href="images/kts/kts3_med.png">
-												<img src="images/kts/kts3_small.png" alt="Weather and facebook integration" title="Click for a larger view">
-												<div class="note">Weather and facebook integration</div>
+										<div class="4u">
+											<a class="lightbox" rel="gallery3" href="images/kts/form_KTS.png">
+												<img class="lazy" src="images/grey.gif" data-original="images/kts/form_KTS.png" alt="Weather and facebook integration" title="Click for a larger view">
+												<div class="note">New student form</div>
 											</a>
 										</div>
 									</div>
@@ -320,40 +311,40 @@
 									<h3>Diageo SmartBrand</h3>
 									<p>Here are some of the projects I took part in whilst working on this application:</p>
 									<ul>
-										<li>Implementation an entreprise search using <a href="http://en.wikipedia.org/wiki/Apache_Solr">Solr</a> and Ajax making the search page intuitive and easy to use thanks to facets, filters and saved searches</li>
-										<li>Development the help section of the site</li>
-										<li>Use of advanced excel spreadsheet for data importation</li>
-										<li>Creation of pickup area that was needed for customers not registered within the system. This required me to implement a secure and enclosed area necessary for downloading and viewing assets</li>
+										<li>- Implementation an entreprise search using <a href="http://en.wikipedia.org/wiki/Apache_Solr">Solr</a> and Ajax making the search page intuitive and easy to use thanks to facets, filters and saved searches</li>
+										<li>- Development the help section of the site</li>
+										<li>- Use of advanced excel spreadsheet for data importation</li>
+										<li>- Creation of pickup area that was needed for customers not registered within the system. This required me to implement a secure and enclosed area necessary for downloading and viewing assets</li>
 									</ul>
 									<p>In order to make Vyre's work more efficient I also developed two javascript frameworks which are now used by the whole company:
 										<ul>
-											<li>A javascript validation framework that is easy to use and configure</li>
-											<li>A javascript framework which improves the usability of multiple select boxes (a bit like <a href="http://harvesthq.github.com/chosen/">chosen</a>)</li>
+											<li>- A javascript validation framework that is easy to use and configure</li>
+											<li>- A javascript framework which improves the usability of multiple select boxes (a bit like <a href="http://harvesthq.github.com/chosen/">chosen</a>)</li>
 										</ul>
 										<p>Unfortunately, these codes are property of Vyre and not publicly available.</p>
 										<div class="row image_gallery diageo">
 											<div class="3u">
 												<a class="lightbox" rel="gallery4" href="images/diageo/diageo1_med.png">
-													<img src="images/diageo/diageo1_small.png" alt="Homepage" title="Click for a larger view">
+													<img class="lazy" src="images/grey.gif" data-original="images/diageo/diageo1_small.png" alt="Homepage" title="Click for a larger view">
 
 													<div class="note">Homepage</div>
 												</a>
 											</div>
 											<div class="3u">
 												<a class="lightbox" rel="gallery4" href="images/diageo/diageo2_med.png">
-													<img src="images/diageo/diageo2_small.png" alt="Asset collection view" title="Click for a larger view">
+													<img class="lazy" src="images/grey.gif" data-original="images/diageo/diageo2_small.png" alt="Asset collection view" title="Click for a larger view">
 													<div class="note">Asset collection view</div>
 												</a>
 											</div>
 											<div class="3u">
 												<a class="lightbox" rel="gallery4" href="images/diageo/diageo3_med.png">
-													<img src="images/diageo/diageo3_small.png" alt="Pick-up area" title="Click for a larger view">
+													<img class="lazy" src="images/grey.gif" data-original="images/diageo/diageo3_small.png" alt="Pick-up area" title="Click for a larger view">
 													<div class="note">Pick-up area</div>
 												</a>
 											</div>
 											<div class="3u">
 												<a class="lightbox" rel="gallery4" href="images/diageo/diageo4_med.png">
-													<img src="images/diageo/diageo4_small.png" alt="asset library search" title="Click for a larger view">
+													<img class="lazy" src="images/grey.gif" data-original="images/diageo/diageo4_small.png" alt="asset library search" title="Click for a larger view">
 													<div class="note">Asset library search</div>
 												</a>
 											</div>
@@ -368,6 +359,24 @@
 						</footer>
 					</article>
 				</div>
+
+
+				<!-- CV -->
+			<div class="wrapper wrapper-style5">
+				<article id="cv">
+					<div class="5grid 5grid-container">
+						<div class="row">
+							<div class="12u">
+								<header>
+									<h2>Have a closer look at my CV.</h2>
+									<span>You will have a more complete overview of my experiences and qualifications.</span>
+									<p><a href="CV_Ginoux_en_2013.pdf" target="_blank">Open CV in PDF</a></p>
+								</header>
+							</div>
+						</div>
+
+				</article>
+			</div>
 
 				<!-- Contact -->
 				<div class="wrapper wrapper-style4">
@@ -424,22 +433,31 @@
 								<div class="12u">
 									<h3>Find me on ...</h3>
 									<ul class="social">
-										<li class="twitter"><a href="http://twitter.com/loicginoux" class="icon icon-twitter"><span>Twitter</span></a></li>
-										<li class="linkedin"><a href="http://www.linkedin.com/in/loicginou" class="icon icon-linkedin"><span>LinkedIn</span></a></li>
 										<li class="github"><a href="http://github.com/loicginoux" class="icon icon-github"><span>Github</span></a></li>
+										<li class="linkedin"><a href="http://www.linkedin.com/in/loicginou" class="icon icon-linkedin"><span>LinkedIn</span></a></li>
+										<li class="twitter"><a href="http://twitter.com/loicginoux" class="icon icon-twitter"><span>Twitter</span></a></li>
 									</ul>
 								</div>
 							</div>
 						</div>
 						<footer>
 							<p id="copyright">
-								&copy; 2013 Loic Ginoux | freelancer registered in france | num siren: 539091348
+								&copy; 2013 Loïc Ginoux | freelancer registered in France | num siren: 539091348
 							</p>
 						</footer>
 					</article>
 				</div>
+				<script src="js/head.min.js"></script>
+				<script type="text/javascript">
+					head.js("js/jquery-1.9.1.min.js",
+						"js/jquery.fancybox.js",
+						"js/bootstrap-scrollspy.js",
+						"js/init.js",
+						"js/jquery.lazyload.min.js", function() {
+						// all done
+						init()
+					});
+				</script>
 
-				<script src="js/bootstrap-scrollspy.js"></script>
-				<script src="js/bootstrap-modal.js"></script>
 			</body>
 			</html>
