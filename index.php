@@ -98,7 +98,7 @@
 								<section class="box box-style1">
 									<span class="icon featured-icon icon-cogs"></span>
 									<h3>Coding and Testing</h3>
-									<p>This is where I start implementing a functional website based on the protoype we agreed on. I also thoroughly test abd ensure that the site is optimized and working properly in the most recent browser versions.</p>
+									<p>This is where I start implementing a functional website based on the prototype we agreed on. I also thoroughly test and ensure that the site is optimized and working properly in the most recent browser versions.</p>
 								</section>
 							</div>
 							<div class="3u">
@@ -434,7 +434,7 @@
 									<h3>Find me on ...</h3>
 									<ul class="social">
 										<li class="github"><a href="http://github.com/loicginoux" class="icon icon-github"><span>Github</span></a></li>
-										<li class="linkedin"><a href="http://www.linkedin.com/in/loicginou" class="icon icon-linkedin"><span>LinkedIn</span></a></li>
+										<li class="linkedin"><a href="http://www.linkedin.com/in/loicginoux" class="icon icon-linkedin"><span>LinkedIn</span></a></li>
 										<li class="twitter"><a href="http://twitter.com/loicginoux" class="icon icon-twitter"><span>Twitter</span></a></li>
 									</ul>
 								</div>

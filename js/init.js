@@ -55,8 +55,10 @@ var init = function(){
 			}
 
 			morebox.animate({ "opacity": "show"} , 500 );
+
 			var pos = Math.max(morebox.offset().top - _nav.height() + 15, 0);
 			_bh.animate({ scrollTop: pos }, 'slow', 'swing');
+
 			if (_bh.width()>460){
 				morebox.find("a.lightbox").fancybox();
 			}
