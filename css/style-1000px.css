@@ -61,3 +61,8 @@
 #portfolio .box.clickable {
 	height: 480px;
 }
+
+
+.1000_px_only{
+	display:block;
+}

@@ -203,3 +203,7 @@
 	bottom: 10px;
 	left: 44%;
 }
+
+.mobile_only{
+	display:block;
+}

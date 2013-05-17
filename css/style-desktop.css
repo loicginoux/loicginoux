@@ -78,6 +78,7 @@
 			letter-spacing: -0.025em;
 		}
 
+
 	.box
 	{
 		padding: 2em 2em 2.5em 2em;
@@ -216,4 +217,9 @@
 
 #portfolio .box.clickable {
 	height: 540px;
+}
+
+
+.desktop_only{
+	display:block;
 }

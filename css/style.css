@@ -273,6 +273,11 @@
 		transition: background-color .2s ease-in-out;
 	}
 
+		.button.button-small {
+			font-size: 1em;
+			padding: 0.2em 1em;
+		}
+
 		.button:before
 		{
 			content: '';
@@ -331,6 +336,8 @@
 		.button-big
 		{
 		}
+
+
 
 	ul.social
 	{
@@ -965,6 +972,11 @@
 	text-align: justify;
 }
 
+.box ul{
+	text-align: justify;
+	list-style-type: circle;
+}
+
 .view-more{
 	display: none;
 }
@@ -1008,4 +1020,16 @@
 #portfolio .image_gallery .note{
 	padding-top: 10px;
 	text-align: center;
+}
+
+.mobile_only{
+	display:none;
+}
+
+.desktop_only{
+	display:none;
+}
+
+.1000_px_only{
+	display:none;
 }
