@@ -12,19 +12,19 @@
 							<div class="row image_gallery vtree">
 								<div class="3u">
 									<a class="lightbox" rel="gallery2" href="images/vtree/intro_med.jpg">
-										<img src="images/vtree/intro.jpg" alt="Homepage" title="Click for a larger view">
+										<img class="lazy" src="images/grey.gif" data-original="images/vtree/intro.jpg" alt="Homepage" title="Click for a larger view">
 										<div class="note">Homepage of doc website</div>
 									</a>
 								</div>
 								<div class="3u">
 									<a class="lightbox" rel="gallery2" href="images/vtree/demo_med.jpg">
-										<img src="images/vtree/demo.jpg" alt="Checkbox tree" title="Click for a larger view">
+										<img class="lazy" src="images/grey.gif" data-original="images/vtree/demo.jpg" alt="Checkbox tree" title="Click for a larger view">
 										<div class="note">Checkbox tree</div>
 									</a>
 								</div>
 								<div class="3u">
 									<a class="lightbox" rel="gallery2" href="images/vtree/github_med.jpg">
-										<img src="images/vtree/github.jpg" alt="Hosted on Github" title="Click for a larger view">
+										<img class="lazy" src="images/grey.gif" data-original="images/vtree/github.jpg" alt="Hosted on Github" title="Click for a larger view">
 										<div class="note">Hosted on Github</div>
 									</a>
 								</div>

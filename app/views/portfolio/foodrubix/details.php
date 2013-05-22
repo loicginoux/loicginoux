@@ -14,26 +14,26 @@
 				<div class="row image_gallery foodRubix">
 					<div class="3u">
 						<a class="lightbox" rel="gallery1" href="images/foodRubix/foodRubix1_med.jpg">
-							<img src="images/foodRubix/foodRubix1_small.jpg" alt="Marketing page" title="Click for a larger image">
+							<img class="lazy" src="images/grey.gif" data-original="images/foodRubix/foodRubix1_small.jpg" alt="Marketing page" title="Click for a larger image">
 							<div class="note">Marketing page</div>
 						</a>
 					</div>
 					<div class="3u">
 						<a class="lightbox" rel="gallery1" href="images/foodRubix/foodRubix2_med.jpg">
-							<img src="images/foodRubix/foodRubix2_small.jpg" alt="Week meals view" title="Click for a larger image">
+							<img class="lazy" src="images/grey.gif" data-original="images/foodRubix/foodRubix2_small.jpg" alt="Week meals view" title="Click for a larger image">
 							<div class="note">Week meals view  </div>
 						</a>
 					</div>
 					<div class="3u">
 						<a class="lightbox" rel="gallery1" href="images/foodRubix/foodRubix5_med.jpg">
-							<img src="images/foodRubix/foodRubix5_small.jpg" alt="Feed page" title="Click for a larger image">
+							<img class="lazy" src="images/grey.gif" data-original="images/foodRubix/foodRubix5_small.jpg" alt="Feed page" title="Click for a larger image">
 
 							<div class="note">Feed page</div>
 						</a>
 					</div>
 					<div class="3u">
 						<a class="lightbox" rel="gallery1" href="images/foodRubix/foodRubix3_med.jpg">
-							<img src="images/foodRubix/foodRubix3_small.jpg" alt="Meal view modal box" title="Click for a larger image">
+							<img class="lazy" src="images/grey.gif" data-original="images/foodRubix/foodRubix3_small.jpg" alt="Meal view modal box" title="Click for a larger image">
 							<div class="note">Meal view modal box </div>
 						</a>
 					</div>

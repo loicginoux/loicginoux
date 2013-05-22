@@ -14,19 +14,19 @@
 				<div class="row image_gallery kts">
 					<div class="4u">
 						<a class="lightbox" rel="gallery3" href="images/kts/home_KTS.jpg">
-							<img class="lazy" src="images/kts/home_KTS.jpg" data-original="images/kts/home_KTS.jpg" alt="Homepage header" title="Click for a larger view" style="display: inline;">
+							<img class="lazy" src="images/grey.gif" data-original="images/kts/home_KTS.jpg" alt="Homepage header" title="Click for a larger view" style="display: inline;">
 							<div class="note">Homepage of website</div>
 						</a>
 					</div>
 					<div class="4u">
 						<a class="lightbox" rel="gallery3" href="images/kts/dashboard_KTS.jpg">
-							<img class="lazy" src="images/kts/dashboard_KTS.jpg" data-original="images/kts/dashboard_KTS.jpg" alt="Footer" title="Click for a larger view" style="display: inline;">
+							<img class="lazy" src="images/grey.gif" data-original="images/kts/dashboard_KTS.jpg" alt="Footer" title="Click for a larger view" style="display: inline;">
 							<div class="note">App Dashboard</div>
 						</a>
 					</div>
 					<div class="4u">
 						<a class="lightbox" rel="gallery3" href="images/kts/form_KTS.jpg">
-							<img class="lazy" src="images/kts/form_KTS.jpg" data-original="images/kts/form_KTS.jpg" alt="Weather and facebook integration" title="Click for a larger view" style="display: inline;">
+							<img class="lazy" src="images/grey.gif" data-original="images/kts/form_KTS.jpg" alt="Weather and facebook integration" title="Click for a larger view" style="display: inline;">
 							<div class="note">New student form</div>
 						</a>
 					</div>

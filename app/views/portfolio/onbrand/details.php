@@ -23,25 +23,25 @@
 							<div class="row image_gallery onbrand">
 								<div class="3u">
 									<a class="lightbox" rel="gallery2" href="images/onbrand/OnBrand_CW_Screen1_ProjectStages_Annotation_Med.jpg">
-										<img src="images/onbrand/OnBrand_CW_Screen1_ProjectStages_Annotation_Small.jpg" alt="Project Stages and Annotations" title="Click for a larger view">
+										<img class="lazy" src="images/grey.gif" data-original="images/onbrand/OnBrand_CW_Screen1_ProjectStages_Annotation_Small.jpg" alt="Project Stages and Annotations" title="Click for a larger view">
 										<div class="note">Project Stages and Annotations</div>
 									</a>
 								</div>
 								<div class="3u">
 									<a class="lightbox" rel="gallery2" href="images/onbrand/OnBrand_CW_Screen1_MyProjects_Med.jpg">
-										<img src="images/onbrand/OnBrand_CW_Screen1_MyProjects_Small.jpg" alt="My Projects" title="Click for a larger view">
+										<img class="lazy" src="images/grey.gif" data-original="images/onbrand/OnBrand_CW_Screen1_MyProjects_Small.jpg" alt="My Projects" title="Click for a larger view">
 										<div class="note">My Projects</div>
 									</a>
 								</div>
 								<div class="3u">
 									<a class="lightbox" rel="gallery2" href="images/onbrand/OnBrand_CW_Screen1_ProjectDetail_Med.jpg">
-										<img src="images/onbrand/OnBrand_CW_Screen1_ProjectDetail_Small.jpg" alt="Project Details" title="Click for a larger view">
+										<img class="lazy" src="images/grey.gif" data-original="images/onbrand/OnBrand_CW_Screen1_ProjectDetail_Small.jpg" alt="Project Details" title="Click for a larger view">
 										<div class="note">Project Details</div>
 									</a>
 								</div>
 								<div class="3u">
 									<a class="lightbox" rel="gallery2" href="images/onbrand/OnBrand_CW_Screen1_ProjectAssets_Med.jpg">
-										<img src="images/onbrand/OnBrand_CW_Screen1_ProjectAssets_Small.jpg" alt="Project Assets" title="Click for a larger view">
+										<img class="lazy" src="images/grey.gif" data-original="images/onbrand/OnBrand_CW_Screen1_ProjectAssets_Small.jpg" alt="Project Assets" title="Click for a larger view">
 										<div class="note">Project Assets</div>
 									</a>
 								</div>

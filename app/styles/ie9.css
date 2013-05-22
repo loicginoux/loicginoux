@@ -10,29 +10,29 @@
 
 	.button
 	{
-		background-image: url('images/ie9/button.svg');
+		background-image: url('../images/ie9/button.svg');
 	}
-	
+
 		.button:active
 		{
-			background-image: url('images/ie9/button-active.svg');
+			background-image: url('../images/ie9/button-active.svg');
 		}
-		
+
 		.button-alt
 		{
-			background-image: url('images/ie9/button-alt.svg');
+			background-image: url('../images/ie9/button-alt.svg');
 		}
-		
+
 			.button-alt:active
 			{
-				background-image: url('images/ie9/button-alt-active.svg');
+				background-image: url('../images/ie9/button-alt-active.svg');
 			}
 
 	ul.social
 	{
 	}
-	
+
 		ul.social li
 		{
-			background-image: url('images/ie9/social-li.svg');
+			background-image: url('../images/ie9/social-li.svg');
 		}
