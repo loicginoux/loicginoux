@@ -15,7 +15,7 @@ lines:
             id: ktc
             title: Kiffe tes courses
             intro: A comparison shopping engine that aggregates products from different french online shopping sites and helps you to build the cheapest cart
-            link: http://www.kiffetecources.com
+            link: http://www.kiffetescourses.com/
             slides:
               - note: Homepage
               - note: Closest shop finder
