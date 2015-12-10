@@ -1,0 +1,83 @@
+lines:
+  - line:
+      projects:
+        - project:
+            id: alerti
+            title: Alerti
+            link: http://www.alerti.com
+            intro: A social media monitoring service that needed to make a new highly scalable architecture.
+            slides:
+              - note: Homepage
+              - note: Results page for an alert
+              - note: Facebook stats page
+              - note: Twitter stats page
+        - project:
+            id: ktc
+            title: Kiffe tes courses
+            intro: A comparison shopping engine that aggregates products from different french online shopping sites and helps you to build the cheapest cart
+            link: http://www.kiffetecources.com
+            slides:
+              - note: Homepage
+              - note: Closest shop finder
+              - note: Products list and cart
+              - note: choose the cheapest store
+        - project:
+            id: tilkee
+            title: Tilkee
+            intro: Securisation of its API with Oauth2.0 protocol and authentication via external providers like Linkedin
+            link: http://www.tilkee.com
+        - project:
+            id: foodrubix
+            title: FoodRubix
+            intro: A visual food diary for tracking what your food consumption looks like over a range of time
+            link: http://www.foodrubix.com
+            slides:
+              - note: Marketing page
+              - note: Week meals view
+              - note: Feed page
+              - note: Meal view modal box
+  - line:
+      projects:
+        - project:
+            id: onbrand
+            title: OnBrand
+            intro: 'A modular Saas solution for managing brands, used by Shell, Diageo and Nestle among others.'
+            link: http://www.vyre.com/products/onbrand/tour/
+            slides:
+              - note: Project Stages and Annotations
+              - note: My Projects
+              - note: Project Details
+              - note: Project Assets
+        - project:
+            id: diageo
+            title: Diageo SmartBrand
+            intro: "world's leading premium drinks business, Diageo has a portal used globally to manage their assets, marketing projects, customers..."
+            slides:
+              - note: Homepage
+              - note: Asset collection
+              - note: Pick-up area
+              - note: Asset library search
+        - project:
+            id: londy
+            title: Todo App for teams
+            intro: A nice little app for managing tasks and project easily in a small team.
+        - project:
+            id: kts
+            title: Shop and Kite School Manager
+            intro: A store manager and student manager web application made for Kite Tarifa School (KTS).
+            link: http://www.ktstarifa.com
+            slides:
+              - note: Homepage
+              - note: App Dashboard
+              - note: New student form
+  - line:
+      projects:
+        - project:
+            id: vtree
+            title: Vtree Component
+            intro: "A javascript component for rendering trees, made simple, quick and extendable."
+            link: http://loicginoux.github.io/vtree/
+            slides:
+              - note: Homepage
+              - note: Checkbox tree
+              - note: Hosted on Github

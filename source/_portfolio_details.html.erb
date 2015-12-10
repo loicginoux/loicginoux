@@ -1,0 +1,26 @@
+<!-- Alerti details -->
+<div class="5grid 5grid-container hide more <%= project.id %>">
+  <div class="row">
+    <div class="12u">
+      <article class="box box-style2">
+        <h3><%= project.title %></h3>
+        <div class="content">
+          <%= partial "portfolio/#{project.id}", locals: {project: project.project} %>
+        <% unless project.link.nil? %>
+          </br>
+          <a href="<%= project.link %>" class="button button-small">Go To Site</a>
+        <% end  %>
+        <div class="row image_gallery <%= project.id %>">
+          <% project.slides.each_with_index do |slide, index| %>
+            <div class="3u">
+              <a class="lightbox" rel="gallery1" href="images/<%= project.id %>/<%= index + 1 %>_med.jpg">
+                <img class="lazy" src="images/grey.gif" data-original="images/<%= project.id %>/<%= index + 1 %>_small.jpg" alt="<%= slide.note %>" title="Click for a larger image">
+                <div class="note"><%= slide.note %></div>
+              </a>
+            </div>
+          <% end unless project.slides.nil? %>
+        </div>
+      </article>
+    </div>
+  </div>
+</div>

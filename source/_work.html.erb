@@ -1,0 +1,51 @@
+<!-- Work -->
+<div class="wrapper wrapper-style2">
+  <article id="work">
+    <div class="5grid 5grid-container">
+      <div class="row">
+        <div class="12u">
+          <header>
+            <h2>I like to get work done properly and I will always leave a happy customer.</h2>
+          </header>
+            <p>
+              <span>I am here to solve your problems and come up with a solution that will fit your needs. I think that communication is the key for a successful web project. That's why I prefer to work with the <a href="http://en.wikipedia.org/wiki/Agile_software_development">Agile development methodology</a>. It consists on a iterative and incremental build approach that will allow your project to be flexible, quickly deployed and at the most effective cost (<a href="http://www.allaboutagile.com/10-good-reasons-to-do-agile-development/">read all the advantages</a>).</span>
+            </p>
+            <p>
+              <!-- <span>We can also work together in a <a href="#" class="more_trad">more traditional way.</a></span> -->
+              <span>We can also work together in a more traditional way.</span>
+            </p>
+        </div>
+      </div>
+
+      <div class="row more_trad_explained">
+        <% data.workflow.steps.each do |w| %>
+          <div class="3u">
+            <section class="box box-style1">
+              <span class="icon featured-icon <%= w.icon %>"></span>
+              <h3><%= w.title %></h3>
+              <p><%= w.desc %></p>
+            </section>
+          </div>
+        <% end %>
+      </div>
+
+      <div class="row">
+        <div class="12u">
+          <header>
+            <h2>Not convinced?</h2>
+            <% data.recommendations.each do |reco| %>
+              <blockquote class="box" >
+                <p>"<%= reco.said %>"</p>
+                <p><span class="name">— <%= reco.by %> </span></p>
+              </blockquote>
+            <% end %>
+          </header>
+        </div>
+      </div>
+
+    </div>
+    <footer>
+      <a href="#contact" class="button button-big">Get in touch</a>
+    </footer>
+  </article>
+</div>

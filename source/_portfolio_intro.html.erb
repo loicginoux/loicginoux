@@ -1,0 +1,11 @@
+<div class="3u">
+  <article class="box clickable box-style2 <%= project.id %>">
+    <a  href="#myModal" class="image image-full" data-toggle="modal">
+      <img class="lazy" src="images/grey.gif" data-original="images/<%= project.id %>/intro.jpg" alt="<%= project.id %> intro" />
+    </a>
+    <h3><%= project.title %></h3>
+    <p><%= project.intro %></p>
+    <span class="icon  view-more icon-double-angle-down"></span>
+  </article>
+</div>
+<div class="more-mobile <%= project.id %>"></div>

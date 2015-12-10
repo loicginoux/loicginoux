@@ -1,0 +1,33 @@
+<div class="wrapper wrapper-style3">
+  <article id="portfolio">
+    <header>
+      <h2>Web applications and projects I worked on.</h2>
+      <span>Get to know more about my different projects and web technologies I use.</span>
+    </header>
+    <!-- portfolio quick presentation -->
+
+    <% data.projects.lines.each do |line| %>
+      <div class="5grid 5grid-container">
+        <div class="row">
+          <div class="12u">
+          </div>
+        </div>
+        <div class="row">
+          <% line.line.projects.each do |project| %>
+            <%= partial "portfolio_intro", locals: {project: project.project} %>
+          <% end %>
+        </div>
+      </div>
+
+      <% line.line.projects.each do |project| %>
+        <%= partial "portfolio_details", locals: {project: project.project} %>
+      <% end %>
+
+    <% end %>
+
+    <footer>
+      <p></p>
+      <a href="#work" class="button button-big">See how I work</a>
+    </footer>
+  </article>
+</div>

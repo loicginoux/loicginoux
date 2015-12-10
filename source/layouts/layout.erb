@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title><%= current_page.data.title || "Loic Ginoux - Full Stack Developer - Ruby on Rails & Javascript" %></title>
+
+    <meta name="description" content="Freelance full stack web engineer specialized in Ruby on Rails and Javascript." />
+    <meta name="keywords" content="Profesional Freelance web engineer, Ruby on Rails developer, Javascript Developer, web aplication developer, web project management, web contractor" />
+    <meta name="viewport" content="width=device-width">
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" />
+
+    <%= stylesheet_link_tag "normalize", "bootstrap-modal", "fancybox", "style" %>
+
+    <script src="javascripts/vendor/5grid.js">{preset:'legacy',prefix:'stylesheets/style',breakpoints:{'desktop':{grid:{gutters:4}}}}</script>
+    <!--[if lte IE 9]><link rel="stylesheet" href="styles/ie9.css" /><![endif]-->
+    <!--[if lte IE 8]><link rel="stylesheet" href="styles/ie8.css" /><![endif]-->
+    <!--[if lte IE 7]><link rel="stylesheet" href="styles/ie7.css" /><![endif]-->
+
+  </head>
+  <body class="<%= page_classes %>">
+    <%= partial "header" %>
+    <%= yield %>
+    <%= partial "footer" %>
+    <%= javascript_include_tag  "all" %>
+  </body>
+</html>
