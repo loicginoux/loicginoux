@@ -1,5 +1,12 @@
 @charset 'UTF-8';
 
+/*
+ *= require normalize
+ *= require bootstrap-modal
+ *= require fancybox
+ */
+
+
 @font-face
 {
 	font-family: 'FontAwesome';
