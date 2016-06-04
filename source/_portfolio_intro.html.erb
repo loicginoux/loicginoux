@@ -3,8 +3,8 @@
     <a  href="#myModal" class="image image-full" data-toggle="modal">
       <img class="lazy" src="images/grey.gif" data-original="images/<%= project.id %>/intro.jpg" alt="<%= project.id %> intro" />
     </a>
-    <h3><%= project.title %></h3>
-    <p><%= project.intro %></p>
+    <h3><%= project.send("title_"+lang) %></h3>
+    <p><%= project.send("intro_"+lang) %></p>
     <span class="icon  view-more icon-double-angle-down"></span>
   </article>
 </div>

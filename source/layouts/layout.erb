@@ -9,8 +9,8 @@
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "Loic Ginoux - Full Stack Developer - Ruby on Rails & Javascript" %></title>
 
-    <meta name="description" content="Freelance full stack web engineer specialized in Ruby on Rails and Javascript." />
-    <meta name="keywords" content="Profesional Freelance web engineer, Ruby on Rails developer, Javascript Developer, web aplication developer, web project management, web contractor" />
+    <meta name="description" content="<%= current_page.data.description || 'Freelance full stack web engineer specialized in Ruby on Rails and Javascript.'%>" />
+    <meta name="keywords" content="<%= current_page.data.keywords || 'Profesional Freelance web engineer, Ruby on Rails developer, Javascript Developer, web aplication developer, web project management, web contractor'%>" />
     <meta name="viewport" content="width=device-width">
 
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" />
@@ -24,7 +24,6 @@
 
   </head>
   <body class="<%= page_classes %>">
-    <%= partial "header" %>
     <%= yield %>
     <%= partial "footer" %>
     <%= javascript_include_tag  "all" %>

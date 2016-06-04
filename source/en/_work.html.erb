@@ -22,8 +22,8 @@
           <div class="3u">
             <section class="box box-style1">
               <span class="icon featured-icon <%= w.icon %>"></span>
-              <h3><%= w.title %></h3>
-              <p><%= w.desc %></p>
+              <h3><%= w.title_en %></h3>
+              <p><%= w.desc_fr %></p>
             </section>
           </div>
         <% end %>
@@ -35,7 +35,7 @@
             <h2>Not convinced?</h2>
             <% data.recommendations.each do |reco| %>
               <blockquote class="box" >
-                <p>"<%= reco.said %>"</p>
+                <p>"<%= reco.said_en %>"</p>
                 <p><span class="name">— <%= reco.by %> </span></p>
               </blockquote>
             <% end %>

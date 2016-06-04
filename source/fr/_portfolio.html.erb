@@ -1,8 +1,8 @@
 <div class="wrapper wrapper-style3">
   <article id="portfolio">
     <header>
-      <h2>Web applications and projects I worked on.</h2>
-      <span>Get to know more about my different projects and web technologies I use.</span>
+      <h2>Applications et projets récents.</h2>
+      <span>Je vous explique en détail mes différents projets, les technologies utilisées et les challenges rencontrés.</span>
     </header>
     <!-- portfolio quick presentation -->
 
@@ -14,20 +14,20 @@
         </div>
         <div class="row">
           <% line.line.projects.each do |project| %>
-            <%= partial "portfolio_intro", locals: {project: project.project} %>
+            <%= partial "portfolio_intro", locals: {project: project.project, lang: "fr"} %>
           <% end %>
         </div>
       </div>
 
       <% line.line.projects.each do |project| %>
-        <%= partial "portfolio_details", locals: {project: project.project} %>
+        <%= partial "portfolio_details", locals: {project: project.project, lang: "fr"} %>
       <% end %>
 
     <% end %>
 
     <footer>
       <p></p>
-      <a href="#work" class="button button-big">See how I work</a>
+      <a href="#work" class="button button-big">Voir ma méthode de travail</a>
     </footer>
   </article>
 </div>

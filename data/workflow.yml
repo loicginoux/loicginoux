@@ -1,13 +1,21 @@
 steps:
-  - title: Requirement Analysis
-    desc: "This is the most important part for both of us. I will here discover and understand your needs and what you want to achieve.  The more I know about what you need to accomplish, the better my chances are of creating the website you want. We will discuss here about your goals, target users, budget and deadline."
+  - title_en: Requirement Analysis
+    title_fr: Analyses du besoin
+    desc_en: "This is the most important part for both of us. I will here discover and understand your needs and what you want to achieve.  The more I know about what you need to accomplish, the better my chances are of creating the website you want. We will discuss here about your goals, target users, budget and deadline."
+    desc_fr: "C'est la partie la plus importante pour tous les deux. Je découvrirai vos exigences et traduirai vos besoins en une solution adaptée. Le plus j'en saurai sur votre stratégie pour accomplir vos objectifs, le mieux je pourrai retransmettre cela dans l'application. Nous discuterons ici de vos objectifs, vos utilisateurs cibles, votre budget et date limite. "
     icon: icon-comments-alt
-  - title: Design and Prototyping
-    desc: "this is the process of taking your idea and turning it into a tangible product. We will make a mock-up of your website. We will then be able to work on the details and have a clear mind about where we are going."
+  - title_en: Design and Prototyping
+    title_fr: Design et Prototype
+    desc_en: "this is the process of taking your idea and turning it into a tangible product. We will make a mock-up of your website. We will then be able to work on the details and have a clear mind about where we are going."
+    desc_fr: "C'est le processus de prendre l'idée et la transformer en un produit concret, je créerai un mock-up de votre site web. Nous travaillerons ensuite sur les détails du design et l'expérience utilisateur pour avoir une idée claire et précise de la direction du projet."
     icon: icon-file-alt
-  - title: Coding and Testing
-    desc: "This is where I start implementing a functional website based on the protoype we agreed on. I also thoroughly test abd ensure that the site is optimized and working properly in the most recent browser versions."
+  - title_en: Coding and Testing
+    title_fr: Implémentation et tests
+    desc_en: "This is where I start implementing a functional website based on the protoype we agreed on. I also thoroughly test abd ensure that the site is optimized and working properly in the most recent browser versions."
+    desc_fr: "Quand nous nous sommes mis d'accord sur les fonctionnalités et le design de l'application, je commence le code à proprement parler. Je testerai aussi de manière automatisée les différentes parties pour s'assurer que le site fait exactement ce qu'on lui demande."
     icon: icon-cogs
-  - title: Deployment and Maintenance
-    desc: "After your final approval, it's time to go live. We upload everything to your server, configure everything and do a quick check. After the launch of your project, I can help you enhance your app to ensure that it evolves and stays in sync with your business."
+  - title_en: Deployment and Maintenance
+    title_fr: Déploiement et maintenance
+    desc_en: "After your final approval, it's time to go live. We upload everything to your server, configure everything and do a quick check. After the launch of your project, I can help you enhance your app to ensure that it evolves and stays in sync with your business."
+    desc_fr: "Après une période de préproduction et votre accord final, c'est l'heure de lancer le produit. Je configure et déploie l'application sur les serveurs de production. Après le lancement de votre projet, je peux continuer à améliorer et maintenir votre produit pour m'assurer qu'il reste synchronisé avec vos attentes."
     icon: icon-thumbs-up

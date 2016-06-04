@@ -84,53 +84,53 @@ var init = function(){
 	});
 
 
-	// email sending
-	$(function() {
-		$('.error').hide();
-		$(".form-button-submit").click(function() {
-			// validate and process form here
+	// // email sending
+	// $(function() {
+	// 	$('.error').hide();
+	// 	$(".form-button-submit").click(function() {
+	// 		// validate and process form here
 
-			$('.error').hide();
-			var name = $("input#name").val();
-			if (name == "") {
-				$("label#name_error").show();
-				$("input#name").focus();
-				return false;
-			}
-			var email = $("input#email").val();
-			if (email == "") {
-				$("label#email_error").show();
-				$("input#email").focus();
-				return false;
-			}
-			var subject = $("input#subject").val();
-			if (subject == "") {
-				$("label#subject_error").show();
-				$("input#subject").focus();
-				return false;
-			}
-			var message = $("textarea#message").val();
-			if (message == "") {
-				$("label#message_error").show();
-				$("textarea#message").focus();
-				return false;
-			}
+	// 		$('.error').hide();
+	// 		var name = $("input#name").val();
+	// 		if (name == "") {
+	// 			$("label#name_error").show();
+	// 			$("input#name").focus();
+	// 			return false;
+	// 		}
+	// 		var email = $("input#email").val();
+	// 		if (email == "") {
+	// 			$("label#email_error").show();
+	// 			$("input#email").focus();
+	// 			return false;
+	// 		}
+	// 		var subject = $("input#subject").val();
+	// 		if (subject == "") {
+	// 			$("label#subject_error").show();
+	// 			$("input#subject").focus();
+	// 			return false;
+	// 		}
+	// 		var message = $("textarea#message").val();
+	// 		if (message == "") {
+	// 			$("label#message_error").show();
+	// 			$("textarea#message").focus();
+	// 			return false;
+	// 		}
 
-			var dataString = 'name='+ name + '&email=' + email + '&message=' + message + '&subject=' + subject;
-			//alert (dataString);return false;
-			$.ajax({
-				type: "POST",
-				url: "send_email.php",
-				data: dataString,
-				success: function() {
-					$(".email-sent").hide()
-					.removeClass("hide")
-					.fadeIn(1000);
-				}
-			});
-			return false;
-		});
-	});
+	// 		var dataString = 'name='+ name + '&email=' + email + '&message=' + message + '&subject=' + subject;
+	// 		//alert (dataString);return false;
+	// 		$.ajax({
+	// 			type: "POST",
+	// 			url: "send_email.php",
+	// 			data: dataString,
+	// 			success: function() {
+	// 				$(".email-sent").hide()
+	// 				.removeClass("hide")
+	// 				.fadeIn(1000);
+	// 			}
+	// 		});
+	// 		return false;
+	// 	});
+	// });
 
 	// load images
 	$("img.lazy").lazyload({
@@ -138,6 +138,10 @@ var init = function(){
 		effect   : "fadeIn"
 	});
 
+  // decode email 
+  var Emailbase64Encoded = "bG9pY0BsZ3gtZGV2ZWxvcG1lbnQuY29t\n";
+  var Emailbase64Decoded = Base64.decode(Emailbase64Encoded)
+  $(".email a").attr("href", "mailto:" + Emailbase64Decoded).find('span').text(Emailbase64Decoded)
 };
 
 init()
