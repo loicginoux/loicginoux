@@ -1,8 +1,8 @@
 ---
-title: Welcome
+title: Bonjour
 date: 2017-03-24
-tags: welcome
+tags: Bonjour
 layout: post
 ---
 
-You're in! Nice.
+Salut les doigts carrés, on commence ?

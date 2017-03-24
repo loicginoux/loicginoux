@@ -40,7 +40,8 @@ page '/*.json', layout: false
 page '/*.txt', layout: false
 
 # With alternative layout
-page "/index.html", layout: :index
+# page "/index.html", layout: :index
+# page "/mentions_legales.html", layout: :index
 
 # Proxy pages (https://middlemanapp.com/advanced/dynamic_pages/)
 # proxy "/this-page-has-no-template.html", "/template-file.html", locals: {
