@@ -24,3 +24,11 @@ gem 'redcarpet', '~> 3.3.4'
 
 # For "summary"-Helper
 gem 'nokogiri', '~> 1.6.8'
+
+
+gem "rack-contrib"
+gem 'rack-zippy'
+
+gem "puma"
+
+gem 'zippy_static_cache'
