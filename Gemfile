@@ -1,21 +1,25 @@
-# If you do not have OpenSSL installed, update
-# the following line to use "http://" instead
+# If you do not have OpenSSL installed, change
+# the following line to use 'http://'
 source 'https://rubygems.org'
 
-gem "middleman", "~>3.4.0"
-
-# Live-reloading plugin
-gem "middleman-livereload", "~> 3.1.0"
-
 # For faster file watcher updates on Windows:
-gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
+gem 'wdm', '~> 0.1.1', platforms: [:mswin, :mingw]
 
 # Windows does not come with time zone data
-gem "tzinfo-data", platforms: [:mswin, :mingw, :jruby]
+gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 
-gem "rack-contrib"
-gem 'rack-zippy'
+# Middleman Gems
+gem 'middleman-livereload'
+gem 'middleman', '~> 4.0'
+gem 'middleman-blog', '~> 4.0'
+gem 'middleman-sprockets', '~> 4.0.0'
 
-gem "puma"
+# For feed.xml.builder
+gem 'builder', '~> 3.2.2'
 
-gem 'zippy_static_cache'
+# Code syntax highlighting
+gem 'middleman-syntax', '~> 3.0.0'
+gem 'redcarpet', '~> 3.3.4'
+
+# For "summary"-Helper
+gem 'nokogiri', '~> 1.6.8'
