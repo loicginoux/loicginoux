@@ -143,7 +143,7 @@ configure :build do
   # activate :asset_hash
 
   # Use relative URLs
-  # activate :relative_assets
+  activate :relative_assets
 
   # Ignoring Files
   ignore 'javascripts/_*'
