@@ -19,3 +19,6 @@
         = article.date.strftime(blog_settings.date_format)
 
 = partial('shared/pagination') if paginate
+
+.post
+  = partial('shared/mailchimp')
