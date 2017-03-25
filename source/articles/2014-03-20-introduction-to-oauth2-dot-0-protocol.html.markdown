@@ -35,7 +35,7 @@ There are two main roles involved in this communication.
 
 ## Protocol
 
-![Oauth2.0 protocol](/images/posts/oauth20.jpg)
+![Oauth2.0 protocol](//images/posts/oauth20.jpg)
 
 (A)  The client requests authorisation from the resource owner. The authorisation request can be made directly to the resource owner (as shown), or preferably indirectly via the authorisation server as an intermediary. It is basically the process happening when an application redirects you to the Facebook site and ask you permission to do some actions with your Facebook account. The framework allows you to specify a ** scope ** which will restrict the client application acess. For example a basic facebook scope could be reading your name and getting your photo while a write scope could be the possibility to let the client publish posts on your facebook account.
 
@@ -58,7 +58,7 @@ This token is usually a hash string used to access restricted resources. It has 
 
 Depending on the implementation of the provider, You will have two choices when the acess token has expired. If no refresh token has been provided, you need to restart the authentication process from the point (C). In the other hand, the provider can also send at the point (D) not only the acess token but also the refresh token. In this last case, this token is used to obtain a new access token when the current access token becomes invalid or expires.
 
-![Oauth2.0 refreshing an acess token](/images/posts/oauth_refresh_20.png)
+![Oauth2.0 refreshing an acess token](//images/posts/oauth_refresh_20.png)
 
 
 ## Oauth 2.0 is not for authentication

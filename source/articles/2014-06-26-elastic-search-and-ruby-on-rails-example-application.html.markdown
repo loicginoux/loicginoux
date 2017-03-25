@@ -37,11 +37,11 @@ And here are 2 screenshots of the app:
 
 the defaut view:
 
-{% img left /images/posts/elastic-search-app/products_catalog.png 650 'image' 'screenshot 1' %}
+{% img left //images/posts/elastic-search-app/products_catalog.png 650 'image' 'screenshot 1' %}
 
 View after searching for the word "camera":
 
-{% img left /images/posts/elastic-search-app/products_catalog_2.png 650 'image' 'screenshot 2' %}
+{% img left //images/posts/elastic-search-app/products_catalog_2.png 650 'image' 'screenshot 2' %}
 
 
 NB: This little application is just a demo, I didn't tested as I probably won't come back to it and don't need to maintain the code in the future.
