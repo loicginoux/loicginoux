@@ -1,8 +1,0 @@
----
-title: Bonjour
-date: 2017-03-24
-tags: Bonjour
-layout: post
----
-
-Salut les doigts carrés, on commence ?
