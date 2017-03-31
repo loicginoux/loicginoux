@@ -61,9 +61,9 @@ var init = function(){
   			var pos = Math.max(morebox.offset().top - _nav.height() + 15, 0);
   			_bh.animate({ scrollTop: pos }, 'slow', 'swing');
 
-  			if (_bh.width()>460){
-  				morebox.find("a.lightbox").fancybox();
-  			}
+  			// if (_bh.width()>460){
+  			// 	morebox.find("a.lightbox").fancybox();
+  			// }
 
   			if ($this.hasClass("londy")){
   				document.getElementById('youtube_londy').src="http://www.youtube.com/embed/OzVLr49Kf8c";
@@ -132,13 +132,7 @@ var init = function(){
 	// 	});
 	// });
 
-	// load images
-	$("img.lazy").lazyload({
-		threshold: 100,
-		effect   : "fadeIn"
-	});
-
-  // decode email 
+  // decode email
   var Emailbase64Encoded = "bG9pY0BsZ3gtZGV2ZWxvcG1lbnQuY29t\n";
   var Emailbase64Decoded = Base64.decode(Emailbase64Encoded)
   $(".email a").attr("href", "mailto:" + Emailbase64Decoded).find('span').text(Emailbase64Decoded)

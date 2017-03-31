@@ -13,12 +13,12 @@
         <div class="row image_gallery <%= project.id %>">
           <% project.send("slides_"+lang).each_with_index do |slide, index| %>
             <div class="3u">
-              <a class="lightbox" rel="gallery1" href="images/<%= project.id %>/<%= index + 1 %>_med.jpg">
-                <img class="lazy" src="images/grey.gif" data-original="images/<%= project.id %>/<%= index + 1 %>_small.jpg" alt="<%= slide.note %>" title="Click for a larger image">
+              <!-- <a class="lightbox" href="images/<%= project.id %>/<%= index + 1 %>_med.jpg"> -->
+                <img src="images/<%= project.id %>/<%= index + 1 %>_small.jpg" alt="<%= slide.note %>" title="Click for a larger image">
                 <div class="note"><%= slide.note %></div>
-              </a>
+              <!-- </a> -->
             </div>
-          <% end unless project.slides.nil? %>
+          <% end unless project.send("slides_"+lang).nil? %>
         </div>
       </article>
     </div>
