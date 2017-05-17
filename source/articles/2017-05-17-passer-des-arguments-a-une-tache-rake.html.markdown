@@ -5,8 +5,8 @@ date: 2017-05-17 15:00 UTC
 tags: ruby, rails, rake
 ---
 
-L'écriture d'une tâche rake est monnaie courante pour les développeurs Ruby on Rails, mais on a tous cherché à un moment donné comment passer des arguments à sa tâche rake pour la rendre plus générique. C'est d'autant plus un problème que la syntaxe n’est pas vraiment facile à mémoriser et il faut après savoir la syntaxe pour faire les appels à ces tâches rake.
-Je vous mets donc ici différentes tâches rake utilisant des arguments.
+L'écriture d'une tâche rake est monnaie courante pour les développeurs Ruby on Rails, mais on a tous cherché à un moment donné comment passer des arguments à sa tâche rake pour la rendre plus générique. C'est d'autant plus un problème que la syntaxe n’est pas vraiment facile à mémoriser et il faut aussi se rappeler comment faire les appels à ces tâches rake avec arguments.
+Je vous mets donc ici différentes tâches utilisant des arguments.
 
 
 * **une tâche rake basique utilisant des arguments**
@@ -64,4 +64,5 @@ task :main_task do
 end
 ```
 
+Emballé, c'est pesé !
 
