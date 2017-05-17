@@ -5,8 +5,8 @@ date: 2017-05-17 15:00 UTC
 tags: ruby, rails, rake
 ---
 
-L'écriture d'une tâche rake est monnaie courrant pour les développeurs Ruby on Rails, mais on a tous cherché à un moment donnée comment passé des arguments à sa tâche rake pour la rendre plus générique. C'est d'autant plus un problème que la synthaxe est pas vraiment facile à mémoriser et il faut après savoir la syntahxe pour faire les appels à ces tâches rake.
-Je vous mets donc içi différentes tâches rake utilisant des arguments.
+L'écriture d'une tâche rake est monnaie courante pour les développeurs Ruby on Rails, mais on a tous cherché à un moment donné comment passé des arguments à sa tâche rake pour la rendre plus générique. C'est d'autant plus un problème que la syntaxe n’est pas vraiment facile à mémoriser et il faut après savoir la syntaxe pour faire les appels à ces tâches rake.
+Je vous mets donc ici différentes tâches rake utilisant des arguments.
 
 
 * **une tâche rake basique utilisant des arguments**
