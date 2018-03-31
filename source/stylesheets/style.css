@@ -989,6 +989,9 @@
 /* custom                                                                     */
 /*********************************************************************************/
 
+.hide{
+  display: none;
+}
 
 .box p{
 	line-height: 1.4em;
@@ -1046,6 +1049,12 @@
 #portfolio .image_gallery .note{
 	padding-top: 10px;
 	text-align: center;
+}.hide{
+  display: none;
+}
+
+#services .box {
+  margin-top: 4%;
 }
 
 .mobile_only{

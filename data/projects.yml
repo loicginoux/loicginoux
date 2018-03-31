@@ -2,6 +2,18 @@ lines:
   - line:
       projects:
         - project:
+            id: vinum
+            title_en: Major french Retailer
+            title_fr: grande enseigne de la grande distribution
+            intro_en: back end web development on Solidus/Spree solution for multiple E-commerce websites.
+            intro_fr: Développement back end de plusieurs sites e-commerce avec le framework Spree/Solidus.
+        - project:
+            id: ozz
+            title_en: Major french Cosmetic Brand
+            title_fr: grande enseigne de la cosmétique
+            intro_en: Development of a web application for crowdfunding and accompanying employees to build their own business.
+            intro_fr: Développement d'une application web de crowdfunding et d'accompagnement des employés pour la création d'entreprise.
+        - project:
             id: alerti
             title_en: Alerti
             title_fr: Alerti
@@ -35,6 +47,8 @@ lines:
               - note: Interface de recherche de magasins proches
               - note: Liste des produits et panier
               - note: Interface de choix du magasins le moins cher
+  - line:
+      projects:
         - project:
             id: tilkee
             title_en: Tilkee
@@ -55,12 +69,10 @@ lines:
               - note: Feed page
               - note: Meal view modal box
             slides_fr:
-              - note: Page marketing 
+              - note: Page marketing
               - note: vue de la semaine
               - note: page de 'Feed'
               - note: popup affichant un repas
-  - line:
-      projects:
         - project:
             id: onbrand
             title_en: OnBrand
@@ -94,6 +106,8 @@ lines:
               - note: Liste des ressources
               - note: Pick-up area
               - note: Interface de recherche de la librairie des ressources
+  - line:
+      projects:
         - project:
             id: kts
             title_en: Shop and Kite School Manager

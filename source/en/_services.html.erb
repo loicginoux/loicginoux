@@ -1,0 +1,22 @@
+<div class="wrapper wrapper-style3">
+  <article id="services">
+    <header>
+      <h2>How can I help your business go in the right direction ?</h2>
+      <span>I provide many services that will help you business grow in this World Wide Web.</span>
+    </header>
+    <% data.services.each do |service| %>
+      <div class="5grid 5grid-container">
+        <div class="row">
+          <article class="box clickable box-style2 <%= service.id %>">
+            <h3><%= service.title_en %></h3>
+            <p class="align-left"><%= service.intro_en %></p>
+          </article>
+        </div>
+      </div>
+    <% end %>
+
+    <footer>
+      <a href="#portfolio" class="button button-big">check out some examples</a>
+    </footer>
+  </article>
+</div>

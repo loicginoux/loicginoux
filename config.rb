@@ -4,7 +4,7 @@
 
 config[:casper] = {
   blog: {
-    url: 'http://www.example.com',
+    url: 'http://www.loicginoux.com',
     name: 'Les doigts carrés',
     description: 'astuces d\'un développeur Ruby / JS / Fullstack',
     date_format: '%d %B %Y',
@@ -13,7 +13,7 @@ config[:casper] = {
   },
   author: {
     name: 'Loic Ginoux',
-    bio: "Ingénieur Informatique Freelance avec 7 ans d'expérience, specialisé sur Ruby on Rails et développement front end", # Optional
+    bio: "Développeur freelance full-stack avec 9 ans d'expérience, spécialisé sur les applications web, e-commerce, Ruby on Rails et frameworks Javascript tels que React ou Angular.", # Optional
     location: nil, # Optional
     website: nil, # Optional
     gravatar_email: nil, # Optional

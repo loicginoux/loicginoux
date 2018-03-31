@@ -143,3 +143,9 @@ DEPENDENCIES
   tzinfo-data
   wdm (~> 0.1.1)
   zippy_static_cache
+
+RUBY VERSION
+   ruby 2.2.2p95
+
+BUNDLED WITH
+   1.16.1

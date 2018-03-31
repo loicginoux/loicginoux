@@ -2,8 +2,8 @@
 <div class="5grid 5grid-container hide more <%= project.id %>">
   <div class="row">
     <div class="12u">
-      <article class="box box-style2">
-        <h3><%= project.title %></h3>
+      <article class="box box-style2 align-left">
+        <h3><%= project.send("title_" + lang) %></h3>
         <div class="content">
           <%= partial "#{lang}/portfolio/#{project.id}", locals: {project: project.project} %>
         <% unless project.link.nil? %>

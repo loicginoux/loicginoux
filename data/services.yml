@@ -1,0 +1,118 @@
+- service:
+  title_en: You are building a SaaS product and need a CTO for your Minimum Viable Product ?
+  title_fr: Vous développez votre produit SaaS et avez besoin d'un CTO pour votre Minimum Viable Product ?
+  intro_en: >
+    As an entrepreneur starting its own company, choosing the right technical guy to build your application is one of the keys to your success.
+    My experience on different projects allow me to fit perfectly in here to help you choose the right tools and technologies.
+    A good technical architecture and coding conventions from the beginning will save you a lot of development time and money in the long run.
+  intro_fr: >
+    En tant qu'entrepreneur, vous avez besoin d'être épaulé pour tout le côté technique de votre projet web.
+    Vous avez besoin d'une personne de confiance et expérimentée qui saura vous suggérer, choisir et mettre en place les bons outils et les bonnes technologies pour
+    atteindre vos objectifs. Une bonne architecture du code et la mise en place de conventions depuis le début du projet vous feront gagner énormément de temps
+    et d'argent sur le long terme.
+
+- service:
+  id: extra
+  title_en: You need extra help on your development team before the deadline ?
+  title_fr: Votre équipe a besoin d'aide pour finir le projet dans les temps ?
+  intro_en: >
+    There is time when everything didn't really go as planned and you discover there is more work than expected in order to finish the project in time.
+    It's time to find a developer to support you on the last sprint. I could join your team for few days in order to complete the project in time and make your client or boss happy.
+  intro_fr: >
+    Il y a des moments ou tout n'est pas allé comme prévu et vous découvrez que le développement requiert plus de temps que prévu pour finir le projet à temps.
+    C'est rarement facile d'estimer le temps de développement pour les projets web et dans ces cas-là, je pourrais vous aider pour le sprint final. Je suis sûr que cela vous
+    donnera une bonne idée de mes compétences et vous fera travailler de nouveau ensemble ;)
+
+- service:
+  id: outsource
+  title_en: You want to implement a new complex feature ?
+  title_fr: Besoin d'une nouvelle fonctionnalité complexe qui requiert un ingénieur expérimenté ?
+  intro_en: >
+    Some development are tricky to implement and requires a lot of skills and experience. You need to be sure that the job will be done properly and using the best practices.
+    Your team may not have the confidence to do that job properly and I will probably be able to do that for you. I am thinking of implementing a payment system, an authentication sytem or building an API for your customers.
+    My experience working on different subjects and setting up different technical solutions will give you the insurance that the job will be done correctly.
+  intro_fr: >
+    Certaines implémentations sont particulièrement délicates à mettre en place et requièrent une personne experimentée pour être sûre de faire les choses dans les règles de l'art,
+    en matière de sécurité ou de workflow. On peut penser à la mise en place d'un système de paiement, le développement d'un système d'authentification, l'implémentation d'une API, etc...
+    Mon expérience m'a permis de traiter de nombreux sujets et de mettre en places de nombreuses solutions techniques qui pourront sûrement vous donner l'assurance que le travail sera bien fait.
+
+- service:
+  id: upgrade
+  title_en: Your app has few years, It's time to upgrade it ?
+  title_fr: Après quelques années, Il est temps de faire les mises à jour ?
+  intro_en: >
+    Upgrading your app and keeping it up to date is important for the health and the speed of your web application or your web site.
+    It insures that you have the latest security fixes and features available. I can help you plan an upgrade for your ruby on rails applications
+    or your javascript application. Most of the time I will start by checking how well your app is tested via unit tests and or integration tests,
+    having a good test suite is a must before starting an upgrade to be sure we won't break your website.
+  intro_fr: >
+    Garder une application à jour dans les versions des frameworks et librairies utilisés est un point important pour avoir une application web en bonne santé.
+    Les dernières versions sont généralement plus rapides, ont les dernières mises à jour de sécurité et les fonctionnalités les plus modernes sont disponibles.
+    Je peux vous aider à faire une mise à jour de votre application, qu'elle soit une application Ruby on rails ou une application front end Angular ou React.
+    La plupart du temps, je commencerai à évaluer la couverture de tests mise en place, qu'ils soient tests unitaires ou tests d'intégration. Avoir une bonne couverture de
+    tests est très recommandée pour être sûr que la mise à jour ne casse pas les fonctionnalités de votre site.
+
+- service:
+  id: audit
+  title_en: You need an code quality or security audit ?
+  title_fr: Vous avez besoin de faire une audit sécurité ou qualité ?
+  intro_en: >
+    You need to assess the state of your web application ? Has it be developped correctly ? Is it all secured correctly ? Did it follow all the best practices and conventions ?
+    Is there part of the code base that could be improved ? It's usually a good idea to have an external point of view, I could give you a better insights
+    of the quality of your codebase.
+  intro_fr: >
+    Votre site web a-t-il était développé correctement ou peut-on améliorer certains points ? Suit-il les bonnes pratiques et conventions du métier ?
+    Votre app est elle sécurisée sous tous les angles ? C'est en général une bonne idée d'avoir un point de vue externe, Je peux vous donner une meilleure
+    compréhension de la qualite et la sécurité de votre application.
+
+- service:
+  id: optimisation
+  title_en: You web application is painfully slow to use ?
+  title_fr: Vous trouvez que votre application web est trop lente ?
+  intro_en: >
+    You users complain your website is slow, and you know that a bad user experience make them leave and not come back. I can put your project back on track,
+    There is a lot of points that can be optimised, front end optimisation (html, css, images, javascript), back end optimisation, architecture or database optimisation, etc...
+    I will first set assess the app and make a list of points for optimisation and we will start on the ones that have the bigger impact and that
+    can be done in the minimum of time.
+
+  intro_fr: >
+    Vos utilisateurs se plaignent que votre application est lente et vous savez qu'une mauvaise expérience utilisateur fait fuir vos clients. Je peux remettre votre projet
+    dans le bon chemin. Il y a plusieurs d'angles d'attaques possible pour optimiser un site web, que ce soit des optimisations front end
+    (html, css, images, javascript), des optimisations back end sur l'architecture ou sur la base de données, etc..
+    Je dresserai d'abord une liste des points les plus bloquants de votre site, et l'on travaillera en priorité sur ceux qui auront un plus grand impact
+    et qui pourront être modifiés en un minimum de temps.
+
+- service:
+  id: refactoring
+  title_en: You have a website with legacy code that needs refactoring ?
+  title_fr: Votre code est historique (legacy code) et un refactoring est nécessaire ?
+  intro_en: >
+    Many companies accumulate legacy code without corresponding automatic tests, and this generates technical debts.
+    In this scenario every new features or fix is harder and maintenance costs more and more.
+    When the project can no longer afford to take on more technical debt, modifying and refactoring the code is the only choice.
+    We could work to put your project back in the right direction by testing your legacy code and slowly rewriting and cleaning your code.
+  intro_fr: >
+    De nombreuses entreprises accumulent du code historique (legacy code) sans leurs tests automatiques correspondants, cela génère de la dette technique.
+    Dans ce scénario, chaque nouvelle fonctionnalité ou correction est plus difficile et les coûts de maintenance de plus en plus importants.
+    Lorsque le projet ne peut plus se permettre d'endosser ces dettes techniques, la modification et le refactoring du code est le seul choix.
+    Nous pourrions travailler ensemble pour remettre votre projet dans la bonne direction en testant votre code existant et en modifiant petit à petit votre code pour qu'il soit plus compréhensible
+    et plus facilement testable. Cela vous fera gagner en cout de maintenance et fera diminuer le nombre de bugs.
+
+- service:
+  id: hiring
+  title_en: You need to hire a new developer and need an experienced interviewer ?
+  title_fr: Vous recrutez un développeur web et vous voulez faire passer des entretiens par une personne expérimentée ?
+  intro_en: >
+    Hiring a new developer can be time consuming and finding the right person is not an easy task.
+    Recruitment agencies do some part of the job but you still need to have someone qualified to do the actual technical interview.
+    Preparing this interview is also a time consuming task. I have a list of questions and exercices ready and
+    my eperience gives me the confidence to be able to interview developers and assess their technical knowledge.
+    The clients for who I did these interviews have been really happy with the selected developer.
+  intro_fr: >
+    Embaucher un nouveau développeur peut prendre du temps et trouver la bonne personne n'est pas une tâche facile.
+    Les agences de recrutement font une partie du travail mais vous devez toujours avoir quelqu'un qualifié pour faire l'entretien technique.
+    La préparation de cet entretien est également une tâche fastidieuse. J'ai une liste de questions et d'exercices prêts et
+    mon expérience me donne la confiance nécessaire pour interviewer les développeurs et évaluer leurs connaissances techniques.
+    Les clients pour qui j'ai fait ces interviews ont toujours été satisfaits avec le développeur sélectionné.
+
+
