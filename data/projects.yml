@@ -3,14 +3,14 @@ lines:
       projects:
         - project:
             id: vinum
-            title_en: Major french Retailer
-            title_fr: grande enseigne de la grande distribution
-            intro_en: back end web development on Solidus/Spree solution for multiple E-commerce websites.
+            title_en: Major French Retailer
+            title_fr: Grande enseigne de la grande distribution
+            intro_en: Back end web development on Solidus/Spree solution for multiple E-commerce websites.
             intro_fr: Développement back end de plusieurs sites e-commerce avec le framework Spree/Solidus.
         - project:
             id: ozz
-            title_en: Major french Cosmetic Brand
-            title_fr: grande enseigne de la cosmétique
+            title_en: Major French Cosmetic Brand
+            title_fr: Grande enseigne de la cosmétique
             intro_en: Development of a web application for crowdfunding and accompanying employees to build their own business.
             intro_fr: Développement d'une application web de crowdfunding et d'accompagnement des employés pour la création d'entreprise.
         - project:
@@ -34,7 +34,7 @@ lines:
             id: ktc
             title_en: Kiffe tes courses
             title_fr: Kiffe tes courses
-            intro_en: A comparison shopping engine that aggregates products from different french online shopping sites and helps you to build the cheapest cart.
+            intro_en: A comparison shopping engine that aggregates products from different French online shopping sites and helps you build the cheapest cart.
             intro_fr: Un site de comparaison de panier de courses sur les différents sites de supermarché qui permet de trouver le panier le moins cher et de passer commande.
             link: http://www.kiffetescourses.com/
             slides_en:
@@ -94,7 +94,7 @@ lines:
             id: diageo
             title_en: Diageo SmartBrand
             title_fr: Diageo SmartBrand
-            intro_en: world's leading premium drinks business, Diageo has a portal used globally to manage their assets, marketing projects, customers...
+            intro_en: World's leading premium drinks business, Diageo has a portal used globally to manage their assets, marketing projects, customers...
             intro_fr: Leader dans les boissons alcoolisées, Diageo a un portail utilisé mondialement pour la gestion de leurs ressources marketing et de leurs clients.
             slides_en:
               - note: Homepage

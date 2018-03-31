@@ -23,7 +23,7 @@
             <section class="box box-style1">
               <span class="icon featured-icon <%= w.icon %>"></span>
               <h3><%= w.title_en %></h3>
-              <p><%= w.desc_fr %></p>
+              <p><%= w.desc_en %></p>
             </section>
           </div>
         <% end %>
@@ -32,7 +32,7 @@
       <div class="row">
         <div class="12u">
           <header>
-            <h2>Not convinced?</h2>
+            <h2>Not convinced yet ?</h2>
             <% data.recommendations.each do |reco| %>
               <blockquote class="box" >
                 <p>"<%= reco.said_en %>"</p>

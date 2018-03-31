@@ -6,7 +6,7 @@ steps:
     icon: icon-comments-alt
   - title_en: Design and Prototyping
     title_fr: Design et Prototype
-    desc_en: "this is the process of taking your idea and turning it into a tangible product. We will make a mock-up of your website. We will then be able to work on the details and have a clear mind about where we are going."
+    desc_en: "This is the process of taking your idea and turning it into a tangible product. We will make a mock-up of your website. We will then be able to work on the details and have a clear mind about where we are going."
     desc_fr: "C'est le processus de prendre l'idée et la transformer en un produit concret, je créerai un mock-up de votre site web. Nous travaillerons ensuite sur les détails du design et l'expérience utilisateur pour avoir une idée claire et précise de la direction du projet."
     icon: icon-file-alt
   - title_en: Coding and Testing
