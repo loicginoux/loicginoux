@@ -6,7 +6,7 @@ config[:casper] = {
   blog: {
     url: 'http://www.loicginoux.com',
     name: 'Les doigts carrés',
-    description: 'astuces d\'un développeur Ruby / JS / Fullstack',
+    description: 'Blog et astuces d\'un développeur freelance full-stack, Ruby, Rails et frameworks Javascript',
     date_format: '%d %B %Y',
     navigation: true,
     logo: nil # Optional
