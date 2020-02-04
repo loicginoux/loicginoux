@@ -1,7 +1,7 @@
 <div class="3u">
   <article class="box clickable box-style2 <%= project.id %>">
     <a  href="#myModal" class="image image-full" data-toggle="modal">
-      <img src="images/<%= project.id %>/intro.jpg" alt="<%= project.id %> intro" />
+      <img src="/images/<%= project.id %>/intro.jpg" alt="<%= project.id %> intro" />
     </a>
     <h3><%= project.send("title_"+lang) %></h3>
     <p><%= project.send("intro_"+lang) %></p>

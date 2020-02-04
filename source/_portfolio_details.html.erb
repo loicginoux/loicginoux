@@ -14,7 +14,7 @@
           <% project.send("slides_"+lang).each_with_index do |slide, index| %>
             <div class="3u">
               <!-- <a class="lightbox" href="images/<%= project.id %>/<%= index + 1 %>_med.jpg"> -->
-                <img src="images/<%= project.id %>/<%= index + 1 %>_small.jpg" alt="<%= slide.note %>" title="Click for a larger image">
+                <img src="/images/<%= project.id %>/<%= index + 1 %>_small.jpg" alt="<%= slide.note %>" title="Click for a larger image">
                 <div class="note"><%= slide.note %></div>
               <!-- </a> -->
             </div>
