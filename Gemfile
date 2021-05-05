@@ -1,4 +1,4 @@
-ruby '2.2.2'
+ruby '2.7.2'
 # If you do not have OpenSSL installed, change
 # the following line to use 'http://'
 source 'https://rubygems.org'
@@ -32,3 +32,5 @@ gem 'rack-zippy'
 gem "puma"
 
 gem 'zippy_static_cache'
+
+gem "bigdecimal", '~> 1.4'
