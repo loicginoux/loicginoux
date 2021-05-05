@@ -141,7 +141,7 @@ GEM
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
-    redcarpet (3.3.4)
+    redcarpet (3.5.1)
     rexml (3.2.5)
     rouge (2.2.1)
     sassc (2.4.0)
@@ -176,7 +176,7 @@ DEPENDENCIES
   puma
   rack-contrib
   rack-zippy
-  redcarpet (~> 3.3.4)
+  redcarpet (~> 3.5.1)
   tzinfo-data
   wdm (~> 0.1.1)
   zippy_static_cache
