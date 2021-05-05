@@ -106,35 +106,35 @@ lines:
               - note: Liste des ressources
               - note: Pick-up area
               - note: Interface de recherche de la librairie des ressources
-  - line:
-      projects:
-        - project:
-            id: kts
-            title_en: Shop and Kite School Manager
-            title_fr: Gestion interne d'une école de Kite
-            intro_en: A store manager and student manager web application made for Kite Tarifa School (KTS).
-            intro_fr: Une application de gestion des cours, élèves, équipement et matériel pour l'école de kite, Kite Tarifa School (KTS).
-            link: http://www.ktstarifa.com
-            slides_en:
-              - note: Homepage
-              - note: App Dashboard
-              - note: New student form
-            slides_fr:
-              - note: Homepage
-              - note: Dashboard de l'application
-              - note: Formulaire pour les nouveau élèves
-        - project:
-            id: vtree
-            title_en: Vtree Component
-            title_fr: Vtree Component
-            intro_en: A javascript component for rendering trees, made simple, quick and extendable.
-            intro_fr: Un composant modulaire javascript pour afficher rapidement une arborescence
-            link: http://loicginoux.github.io/vtree/
-            slides_en:
-              - note: Homepage
-              - note: Checkbox tree
-              - note: Hosted on Github
-            slides_fr:
-              - note: Homepage
-              - note: Checkbox tree
-              - note: Hosted on Github
+  # - line:
+  #     projects:
+  #       - project:
+  #           id: kts
+  #           title_en: Shop and Kite School Manager
+  #           title_fr: Gestion interne d'une école de Kite
+  #           intro_en: A store manager and student manager web application made for Kite Tarifa School (KTS).
+  #           intro_fr: Une application de gestion des cours, élèves, équipement et matériel pour l'école de kite, Kite Tarifa School (KTS).
+  #           link: http://www.ktstarifa.com
+  #           slides_en:
+  #             - note: Homepage
+  #             - note: App Dashboard
+  #             - note: New student form
+  #           slides_fr:
+  #             - note: Homepage
+  #             - note: Dashboard de l'application
+  #             - note: Formulaire pour les nouveau élèves
+  #       - project:
+  #           id: vtree
+  #           title_en: Vtree Component
+  #           title_fr: Vtree Component
+  #           intro_en: A javascript component for rendering trees, made simple, quick and extendable.
+  #           intro_fr: Un composant modulaire javascript pour afficher rapidement une arborescence
+  #           link: http://loicginoux.github.io/vtree/
+  #           slides_en:
+  #             - note: Homepage
+  #             - note: Checkbox tree
+  #             - note: Hosted on Github
+  #           slides_fr:
+  #             - note: Homepage
+  #             - note: Checkbox tree
+  #             - note: Hosted on Github
