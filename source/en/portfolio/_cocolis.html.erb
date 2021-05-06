@@ -1,18 +1,3 @@
-<p>Alerti est une solution de veille et d'analyse des médias sociaux that want to control what is said about them online.</p>
-<p>A big part of the Ruby on Rails application is a crawling system that gathers all information needed for the users. With a constant growth, this system started to work slowly with some database tables of several hundred million rows.</p>
-<p>My mission was to make this app scale to handle more and more users. I started doing some research on different technologies, benchmarking for different databases and optimizing db indexing and db structure.</p>
-<p>The second part was building the new architecture for the crawler that could scale whatever the charge. We used for that the following technologies: </p>
-<ul>
-  <li>
-    <a href="http://www.tokutek.com/">TokuDB</a> as a sql engine
-  </li>
-  <li>
-    <a href="http://sidekiq.org/">Sidekiq</a> for background parallel job processing
-  </li>
-  <li>
-    <a href="https://www.rabbitmq.com/">rabbitMQ</a> for messaging service between apps
-  </li>
-  <li>
-    <a href="http://redis.io/">Redis</a> for caching data
-  </li>
-</ul>
+<p>This application let individual carrier meet people that want to send packages from any size, the popularity of this french startup is increasing and they are the leader on this market in France.</p>
+<p>The back end is done in Ruby on Rails, my mission is to develop the api to communication the front end application, design the code and the data schema and to implement new features. The goal is to have a clean, robuste code that can scale easily but still having a easily readable code which is tested from end to end.</p>
+<p>The technologies used are Ruby On Rails, React as front end javascript framework, Postgresql as database, Heroku for hosting, and Elastic Search for semantic search.</p>

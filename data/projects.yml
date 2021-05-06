@@ -4,13 +4,14 @@ lines:
         - project:
             id: vinum
             title_en: Major French Retailer
-            title_fr: Grande enseigne de la grande distribution
+            title_fr: Carrefour
             intro_en: Senior dev on large on large web application on Solidus/Spree solution for multiple E-commerce websites.
-            intro_fr: Dév senior sur plusieurs grands sites e-commerce avec le framework Spree/Solidus.
+            intro_fr: Lead Dev senior sur plusieurs grands sites e-commerce avec le framework Spree/Solidus.
         - project:
             id: ozz
             title_en: Major French Cosmetic Brand
-            title_fr: Grande enseigne de la cosmétique
+            title_fr: L'oréal
+            link: https://ozezozer.fr/
             intro_en: Development full stack of a web application for crowdfunding and accompanying employees to build their own business.
             intro_fr: Développement full stack d'une application web de crowdfunding et d'accompagnement des employés pour la création d'entreprise.
         - project:
