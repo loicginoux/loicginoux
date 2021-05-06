@@ -14,6 +14,17 @@ lines:
             intro_en: Development full stack of a web application for crowdfunding and accompanying employees to build their own business.
             intro_fr: Développement full stack d'une application web de crowdfunding et d'accompagnement des employés pour la création d'entreprise.
         - project:
+            id: cocolis
+            title_en: Cocolis
+            title_fr: Cocolis
+            link: http://www.cocolis.fr
+            intro_en: Ecological and innovative logistics solution offering a delivery service by individuals.
+            intro_fr: Solution logistique écologique et innovante proposant un service de livraison par des particuliers.
+            slides_en:
+              - note: Homepage
+            slides_fr:
+              - note: Homepage
+        - project:
             id: alerti
             title_en: Alerti
             title_fr: Alerti
@@ -30,6 +41,15 @@ lines:
               - note: page de résultats d'une alerte
               - note: Page de stats Facebook
               - note: Page de stats Twitter
+  - line:
+      projects:
+        - project:
+            id: tilkee
+            title_en: Tilkee
+            title_fr: Tilkee
+            intro_en: Securisation of its API with Oauth2.0 protocol and authentication via external providers like Linkedin.
+            intro_fr: Sécurisation de l'API Tilkee avec le protocole Oauth2.0 et authentification via les réseaux sociaux tels que Google, Linkedin et Facebook.
+            link: http://www.tilkee.com
         - project:
             id: ktc
             title_en: Kiffe tes courses
@@ -47,32 +67,6 @@ lines:
               - note: Interface de recherche de magasins proches
               - note: Liste des produits et panier
               - note: Interface de choix du magasins le moins cher
-  - line:
-      projects:
-        - project:
-            id: tilkee
-            title_en: Tilkee
-            title_fr: Tilkee
-            intro_en: Securisation of its API with Oauth2.0 protocol and authentication via external providers like Linkedin.
-            intro_fr: Sécurisation de l'API Tilkee avec le protocole Oauth2.0 et authentification via les réseaux sociaux tels que Google, Linkedin et Facebook.
-            link: http://www.tilkee.com
-        - project:
-            id: foodrubix
-            title_en: FoodRubix
-            title_fr: FoodRubix
-            intro_en: A visual food diary for tracking what your food consumption looks like over a range of time.
-            intro_fr: Un journal de bord pour traquer ce que l'on mange, pouvoir analyser et partager autour de son régime.
-            link: http://www.foodrubix.com
-            slides_en:
-              - note: Marketing page
-              - note: Week meals view
-              - note: Feed page
-              - note: Meal view modal box
-            slides_fr:
-              - note: Page marketing
-              - note: vue de la semaine
-              - note: page de 'Feed'
-              - note: popup affichant un repas
         - project:
             id: onbrand
             title_en: OnBrand
@@ -108,6 +102,23 @@ lines:
               - note: Interface de recherche de la librairie des ressources
   # - line:
   #     projects:
+  #       - project:
+  #           id: foodrubix
+  #           title_en: FoodRubix
+  #           title_fr: FoodRubix
+  #           intro_en: A visual food diary for tracking what your food consumption looks like over a range of time.
+  #           intro_fr: Un journal de bord pour traquer ce que l'on mange, pouvoir analyser et partager autour de son régime.
+  #           link: http://www.foodrubix.com
+  #           slides_en:
+  #             - note: Marketing page
+  #             - note: Week meals view
+  #             - note: Feed page
+  #             - note: Meal view modal box
+  #           slides_fr:
+  #             - note: Page marketing
+  #             - note: vue de la semaine
+  #             - note: page de 'Feed'
+  #             - note: popup affichant un repas
   #       - project:
   #           id: kts
   #           title_en: Shop and Kite School Manager
