@@ -658,7 +658,8 @@
 		.icon-bookmark-empty:before       { content: "\f097"; }
 		.icon-phone-sign:before           { content: "\f098"; }
 		.icon-twitter:before              { content: "\f099"; padding-left: 2px; }
-		.icon-facebook:before             { content: "\f09a"; padding-left: 6px; }
+		/*.icon-facebook:before             { content: "\f09a"; padding-left: 6px; }*/
+    .icon-facebook:before             { content: "\f09b"; }
 		.icon-github:before               { content: "\f09b"; }
 		.icon-unlock:before               { content: "\f09c"; }
 		.icon-credit-card:before          { content: "\f09d"; }
