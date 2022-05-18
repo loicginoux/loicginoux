@@ -23,7 +23,7 @@ gem 'middleman-syntax', '~> 3.0.0'
 gem 'redcarpet', '~> 3.5.1'
 
 # For "summary"-Helper
-gem 'nokogiri', '~> 1.11.0'
+gem 'nokogiri', '~> 1.13.5'
 
 
 gem "rack-contrib"
