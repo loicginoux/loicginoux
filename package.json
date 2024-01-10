@@ -1,0 +1,27 @@
+{
+  "name": "grateful-graham",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  },
+  "dependencies": {
+    "@astrojs/netlify": "^4.1.0",
+    "@astrojs/sitemap": "^3.0.4",
+    "@astrojs/tailwind": "^5.1.0",
+    "ajv-keywords": "^5.1.0",
+    "astro": "^4.1.1",
+    "astro-robots-txt": "^1.0.0",
+    "glightbox": "^3.2.0",
+    "imagesloaded": "^5.0.0",
+    "isotope-layout": "^3.0.6",
+    "wowjs": "^1.1.3"
+  }
+}

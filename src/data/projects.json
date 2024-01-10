@@ -1,0 +1,280 @@
+[
+  {
+      "id": "vinum",
+      "tags": "Ruby on Rails",
+      "categories": "Retail",
+      "start": "2017",
+      "end": "2019",
+      "title_en": "Major French Retailer",
+      "title_fr": "Carrefour",
+      "intro_en": "Senior dev on large on large web application on Solidus/Spree solution for multiple E-commerce websites.",
+      "intro_fr": "Lead Dev senior sur plusieurs grands sites e-commerce avec le framework Spree/Solidus.",
+      "technos": [
+        "Ruby on Rails",
+        "Solidus / Spree ecommerce framework",
+        "Algolia search engine",
+        "Sidekiq background job processing",
+        "Postresql",
+        "React + Redux",
+        "Heroku hosting"
+      ]
+  },
+  {
+      "id": "ozz",
+      "tags": "Fullstack",
+      "categories": "Crowdfunding, internal tool, collaboration",
+      "start": "2015",
+      "end": "2019",
+      "title_en": "Major French Cosmetic Brand",
+      "title_fr": "L'Oréal",
+      "link": "https://ozezozer.fr/",
+      "intro_en": "a crowdfunding web application to support employees to build their own business.",
+      "intro_fr": "Développement full stack d'une application web de crowdfunding et d'accompagnement des employés pour la création d'entreprise.",
+      "technos": [
+        "Ruby on Rails",
+        "Knockout.js"
+      ]
+  },
+  {
+      "id": "cocolis",
+      "tags": "Ruby on Rails",
+      "categories": "Transport, Logistics, Sharing economy",
+      "start": "2019",
+      "end": "2023",
+      "title_en": "Cocolis",
+      "title_fr": "Cocolis",
+      "link": "http://www.cocolis.fr",
+      "intro_en": "Ecological and innovative logistics solution offering a delivery service by individuals.",
+      "intro_fr": "Solution logistique écologique et innovante proposant un service de livraison par des particuliers.",
+      "technos": [
+        "Ruby on Rails",
+        "Elastic search",
+        "Sidekiq",
+        "Postresql Database",
+        "React front end framework",
+        "Heroku hosting solution"
+      ],
+      "slides_en":
+      [
+          {
+              "note": "Homepage"
+          }
+      ],
+      "slides_fr":
+      [
+          {
+              "note": "Homepage"
+          }
+      ]
+  },
+  {
+      "id": "alerti",
+      "tags": "Fullstack",
+      "categories": "Social media management, Brand monitoring",
+      "start": "2014",
+      "end": "2022",
+      "title_en": "Alerti",
+      "title_fr": "Alerti",
+      "link": "http://www.alerti.com",
+      "intro_en": "A social media monitoring service that needed to make a new highly scalable architecture.",
+      "intro_fr": "Une solution de veille et d'analyse des médias sociaux qui avait besoin d'une architecture plus performante et évolutive.",
+      "technos": [
+        "Ruby on Rails",
+        "TokuDB sql engine",
+        "rabbitMQ messaging service",
+        "Sidekiq",
+        "Redis",
+        "Angular frontend framework",
+        "Heroku hosting solution"
+      ],
+      "slides_en":
+      [
+          {
+              "note": "Homepage"
+          },
+          {
+              "note": "Results page for an alert"
+          },
+          {
+              "note": "Facebook stats page"
+          },
+          {
+              "note": "Twitter stats page"
+          }
+      ],
+      "slides_fr":
+      [
+          {
+              "note": "Homepage"
+          },
+          {
+              "note": "page de résultats d'une alerte"
+          },
+          {
+              "note": "Page de stats Facebook"
+          },
+          {
+              "note": "Page de stats Twitter"
+          }
+      ]
+  },
+  {
+      "id": "tilkee",
+      "tags": "Ruby on Rails",
+      "categories": "Security, Oauth2",
+      "start": "2014",
+      "end": "2014",
+      "title_en": "Tilkee",
+      "title_fr": "Tilkee",
+      "intro_en": "Securisation of its API with Oauth2.0 protocol and authentication via external providers like Linkedin.",
+      "intro_fr": "Sécurisation de l'API Tilkee avec le protocole Oauth2.0 et authentification via les réseaux sociaux tels que Google, Linkedin et Facebook.",
+      "technos": [
+        "Ruby on Rails",
+        "Oauth2.0 protocol",
+        "Doorkeeper gem",
+        "Linkedin API",
+        "Google API",
+        "Facebook API"
+      ],
+      "link": "http://www.tilkee.com"
+  },
+  {
+      "id": "ktc",
+      "tags": "Fullstack",
+      "categories": "comparison shopping",
+      "start": "2013",
+      "end": "2014",
+      "title_en": "Kiffe tes courses",
+      "title_fr": "Kiffe tes courses",
+      "intro_en": "A comparison shopping engine that crawls products data from different French online shopping sites and helps you build the cheapest cart.",
+      "intro_fr": "Un site de comparaison de panier de courses sur les différents sites de supermarché qui permet de trouver le panier le moins cher et de passer commande.",
+      "technos": [
+        "Ruby on Rails",
+        "Mysql",
+        "AngularJS",
+        "Google Maps API"
+      ],
+      "link": "http://www.kiffetescourses.com/",
+      "slides_en":
+      [
+          {
+              "note": "Homepage"
+          },
+          {
+              "note": "Closest shop finder"
+          },
+          {
+              "note": "Products list and cart"
+          },
+          {
+              "note": "choose the cheapest store"
+          }
+      ],
+      "slides_fr":
+      [
+          {
+              "note": "Homepage"
+          },
+          {
+              "note": "Interface de recherche de magasins proches"
+          },
+          {
+              "note": "Liste des produits et panier"
+          },
+          {
+              "note": "Interface de choix du magasins le moins cher"
+          }
+      ]
+  },
+  {
+      "id": "onbrand",
+      "tags": "Frontend",
+      "categories": "Asset management, DAM",
+      "start": "2009",
+      "end": "2012",
+      "title_en": "OnBrand",
+      "title_fr": "OnBrand",
+      "intro_en": "A modular Saas solution for managing brands, used by Shell, Diageo and Nestle among others.",
+      "intro_fr": "Une application Saas modulaire pour la gestion des ressources marketing utilisées par Shell, Diageo et Nestle.",
+      "technos": [
+        "Solr search engine",
+        "Vanilla javascript and in house MVC framework"
+      ],
+      "link": "http://www.northplains.com/on-brand/",
+      "slides_en":
+      [
+          {
+              "note": "Project Stages and Annotations"
+          },
+          {
+              "note": "My Projects"
+          },
+          {
+              "note": "Project Details"
+          },
+          {
+              "note": "Project Assets"
+          }
+      ],
+      "slides_fr":
+      [
+          {
+              "note": "Etape du projet et annotations"
+          },
+          {
+              "note": "Vue: mes projets"
+          },
+          {
+              "note": "Vue: details du projet"
+          },
+          {
+              "note": "Vue: ressources d'un projet"
+          }
+      ]
+  },
+  {
+      "id": "diageo",
+      "tags": "Frontend",
+      "categories": "Asset management, DAM",
+      "start": "2009",
+      "end": "2012",
+      "title_en": "Diageo SmartBrand",
+      "title_fr": "Diageo SmartBrand",
+      "intro_en": "World's leading premium drinks business, Diageo has a portal used globally to manage their assets, marketing projects, customers...",
+      "intro_fr": "Leader dans les boissons alcoolisées, Diageo a un portail utilisé mondialement pour la gestion de leurs ressources marketing et de leurs clients.",
+      "technos": [
+        "Solr search engine",
+        "Vanilla javascript"
+      ],
+      "slides_en":
+      [
+          {
+              "note": "Homepage"
+          },
+          {
+              "note": "Asset collection"
+          },
+          {
+              "note": "Pick-up area"
+          },
+          {
+              "note": "Asset library search"
+          }
+      ],
+      "slides_fr":
+      [
+          {
+              "note": "Homepage"
+          },
+          {
+              "note": "Liste des ressources"
+          },
+          {
+              "note": "Pick-up area"
+          },
+          {
+              "note": "Interface de recherche de la librairie des ressources"
+          }
+      ]
+  }
+]

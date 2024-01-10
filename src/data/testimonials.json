@@ -1,0 +1,34 @@
+[
+    {
+        "content_en": "He was able to understand our functionnal logic and the code of our application very quickly. We are very satisfied with the work done and recommend him with our eyes shut.\n",
+        "content_fr": "Il a su intégrer notre logique fonctionnelle et appréhender le code de l’application très rapidement. Nous sommes très satisfaits du travail qui a été accompli et le recommandons les yeux fermés !\n",
+        "by": "Timothée Saumet",
+        "company": "Tilkee",
+        "position": "CTO",
+        "image_path": "images/testimonial/tilkee.png"
+    },
+    {
+        "content_en": "I highly recommend him as front end contractor. He is very motivated, highly skilled in his trade and delivers a good job, on time and on budget. I will use his service in the future if we have a front end ask that will need to be outsourced.\n",
+        "content_fr": "Je le recommande fortement. Il est très motivé, hautement qualifié dans son métier et fournit un bon travail, dans les temps et le budget imparti. J'utiliserai ses services à l'avenir si nous avons besoin de sous-traiter un développement front-end.\n",
+        "by": "Albert Guðmundsson",
+        "company": "North Plains",
+        "position": "Unify Technical Lead",
+        "image_path": "images/testimonial/vyre.png"
+    },
+    {
+        "content_en": "I approached Loic Ginoux for the technical audit of a website using Ruby (Ruby on Rails). The mission was carried out within the deadlines, with methodology, and perfect technical expertise. Thank you.\n",
+        "content_fr": "J'ai sollicité Loic Ginoux, dans le cadre de l'audit technique d'un site utilisant Ruby (Ruby on Rails). La mission a été réalisée dans les délais, avec méthodologie et une parfait expertise technique. Merci Loic\n",
+        "by": "Antoine Huron",
+        "company": "Philia Medical Editions",
+        "position": "CEO",
+        "image_path": "images/testimonial/philia.png"
+    },
+    {
+        "content_en": "I have been working with Loic for 9 years now, and I have never been disappointed. Diligent, loyal, and proactive, Loic will bring the dynamism and quality your project needs. Faithful to the best practices of Ruby on Rails, his code is always well-documented. Whether as a developer or a lead, you will undoubtedly be satisfied with his work. In case of urgency, he will also be available.\n",
+        "content_fr": "Je travaille avec Loic depuis 9 ans maintenant et je n'ai jamais été déçu. Rigoureux, fidèle et force de proposition, Loic saura apporter à votre projet le dynamisme et la qualité dont il a besoin. Fidèle aux bonnes pratiques de Ruby on Rails son code est toujours bien documenté. Que ce soit en tant que développeur ou lead vous serez forcément satisfait de son travail. En cas d'urgence, il saura aussi se rendre disponible.\n",
+        "by": "Sebastien Fieloux",
+        "company": "Cocolis",
+        "position": "CTO",
+        "image_path": "images/testimonial/sebfie.png"
+    }
+]
