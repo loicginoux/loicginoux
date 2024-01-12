@@ -187,25 +187,25 @@ function onScroll(event) {
 window.document.addEventListener("scroll", onScroll);
 
 
-const onContactSubmitForm = (event) => {
-  event.preventDefault();
+// const onContactSubmitForm = (event) => {
+//   event.preventDefault();
 
-  const myForm = event.target;
-  const formData = new FormData(myForm);
+//   const myForm = event.target;
+//   const formData = new FormData(myForm);
 
-  fetch("/", {
-    method: "POST",
-    headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body: new URLSearchParams(formData).toString(),
-  })
-    .then(() => {
-      document.querySelector("#contact-form button").disabled = true;
-      document.querySelector("#contact-form button").style.opacity = '0.5';
-      document.querySelector("#contact-response").style.display = "block";
-    })
-    .catch((error) => alert(error));
-};
+//   fetch("/", {
+//     method: "POST",
+//     headers: { "Content-Type": "application/x-www-form-urlencoded" },
+//     body: new URLSearchParams(formData).toString(),
+//   })
+//     .then(() => {
+//       document.querySelector("#contact-form button").disabled = true;
+//       document.querySelector("#contact-form button").style.opacity = '0.5';
+//       document.querySelector("#contact-response").style.display = "block";
+//     })
+//     .catch((error) => alert(error));
+// };
 
-document
-  .querySelector("#contact-form")
-  .addEventListener("submit", onContactSubmitForm);
+// document
+//   .querySelector("#contact-form")
+//   .addEventListener("submit", onContactSubmitForm);
