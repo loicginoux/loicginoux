@@ -19,9 +19,9 @@
     "ajv-keywords": "^5.1.0",
     "astro": "^4.1.1",
     "astro-robots-txt": "^1.0.0",
-    "glightbox": "^3.2.0",
     "imagesloaded": "^5.0.0",
     "isotope-layout": "^3.0.6",
+    "venobox": "^2.1.4",
     "wowjs": "^1.1.3"
   }
 }

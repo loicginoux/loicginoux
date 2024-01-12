@@ -4,7 +4,7 @@
 
 import imagesLoaded from 'imagesloaded';
 import Isotope from 'isotope-layout';
-// import GLightbox from 'glightbox';
+import VenoBox from 'venobox';
 // import WOW from 'wowjs';
 
 // window.wow = new WOW.WOW({
@@ -15,14 +15,15 @@ import Isotope from 'isotope-layout';
 //   offset: 50,
 // });
 
-// ========= glightbox
-// const myGallery = GLightbox({
-//   type: 'image',
-// });
+new VenoBox({
+  selector: '.venobox',
+  titlePosition: "bottom",
+});
 
 //============== isotope masonry js with imagesloaded
 imagesLoaded('.portfolio-container', function () {
   var elem = document.querySelector('.items-wrapper');
+  if (!elem) return;
   var iso = new Isotope(elem, {
     // options
     itemSelector: '.item',
@@ -171,7 +172,8 @@ function onScroll(event) {
   for (let i = 0; i < sections.length; i++) {
     const currLink = sections[i];
     const val = currLink.getAttribute("href");
-    const refElement = document.querySelector(val);
+    const refElement = document.querySelector(val.replace("/", ""));
+    if (!refElement) return;
     const scrollTopMinus = scrollPos + 73;
     if (refElement.offsetTop <= scrollTopMinus && refElement.offsetTop + refElement.offsetHeight > scrollTopMinus) {
       document.querySelector(".menu-scroll").classList.remove("active");

@@ -94,7 +94,7 @@ const project = projects.filter((project) => {
   <section class="pb-20">
     <div class="container">
       <div class="flex flex-wrap -mx-5">
-        <div class="w-full lg:w-8/12 px-5">
+        <div class="w-full lg:w-8/12 px-5 mb-10">
           <div>
             <h4 class="font-bold text-xl sm:text-2xl lg:text-xl xl:text-2xl text-black mb-8"><span class="text-primary">01.</span> Job details</h4>
 
@@ -108,6 +108,24 @@ const project = projects.filter((project) => {
                   return (
                     <li class="text-base sm:text-lg lg:text-base xl:text-lg text-primary mb-3">
                       <span class="text-body-color">{technology}</span>
+                    </li>
+                  )
+                })
+              }
+            </ul>
+
+            <!-- photo gallery -->
+            <ul class="flex flex-wrap items-center w-full items-start gap-4">
+              {
+                project['slides_en'].map((slide, index) => {
+                  return (
+                    <li class="flex-initial self-stretch h-[180px]">
+                      <a class="venobox"
+                        data-gall="portfolio"
+                        href=`/images/portfolio/${project['id']}/${index+1}_med.jpg`
+                        title=`${slide['note']}`>
+                        <img src=`/images/portfolio/${project['id']}/${index+1}_small.jpg` class="h-full" alt="image alt"/>
+                      </a>
                     </li>
                   )
                 })

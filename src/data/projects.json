@@ -17,7 +17,9 @@
         "Postresql",
         "React + Redux",
         "Heroku hosting"
-      ]
+      ],
+      "slides_en":[],
+      "slides_fr":[]
   },
   {
       "id": "ozz",
@@ -33,7 +35,9 @@
       "technos": [
         "Ruby on Rails",
         "Knockout.js"
-      ]
+      ],
+      "slides_en":[],
+      "slides_fr":[]
   },
   {
       "id": "cocolis",
@@ -54,17 +58,33 @@
         "React front end framework",
         "Heroku hosting solution"
       ],
-      "slides_en":
-      [
-          {
-              "note": "Homepage"
-          }
+      "slides_en":[
+        {
+            "note": "Homepage"
+        },
+        {
+            "note": "Serach page"
+        },
+        {
+            "note": "Ride creation form"
+        },
+        {
+            "note": "Inbox"
+        }
       ],
-      "slides_fr":
-      [
-          {
-              "note": "Homepage"
-          }
+      "slides_fr":[
+        {
+            "note": "Homepage"
+        },
+        {
+            "note": "Serach page"
+        },
+        {
+            "note": "Ride creation form"
+        },
+        {
+            "note": "Inbox"
+        }
       ]
   },
   {
@@ -136,6 +156,8 @@
         "Google API",
         "Facebook API"
       ],
+      "slides_en":[],
+      "slides_fr":[],
       "link": "http://www.tilkee.com"
   },
   {
