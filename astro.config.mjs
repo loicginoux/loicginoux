@@ -7,6 +7,6 @@ import sitemap from "@astrojs/sitemap";
 export default defineConfig({
   site: 'https://www.locginoux.com',
   integrations: [tailwind(), sitemap()],
-  output: "server",
+  output: "hybrid",
   adapter: netlify()
 });
