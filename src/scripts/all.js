@@ -186,7 +186,6 @@ function onScroll(event) {
 
 window.document.addEventListener("scroll", onScroll);
 
-
 // const onContactSubmitForm = (event) => {
 //   event.preventDefault();
 
