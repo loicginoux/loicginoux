@@ -8,5 +8,6 @@ export default defineConfig({
   site: 'https://www.locginoux.com',
   integrations: [tailwind(), sitemap()],
   output: "hybrid",
-  adapter: netlify()
+  adapter: netlify(),
+  prefetch: true
 });
