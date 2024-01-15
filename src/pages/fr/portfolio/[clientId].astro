@@ -27,7 +27,7 @@ export function getStaticPaths() {
 
 const { clientId } = Astro.params;
 
-const ProjectDescription = (await import(`../../data/portfolio/en/${clientId}.html`)).default
+const ProjectDescription = (await import(`../../data/portfolio/fr/${clientId}.html`)).default
 
 const project = projects.filter((project) => {
   return project['id'] === clientId
@@ -53,7 +53,7 @@ const project = projects.filter((project) => {
                 <a href="/#portfolio" class="font-medium text-base text-body-color pr-1 hover:text-primary"> Home </a>
                 <span class="block w-2 h-2 border-t-2 border-r-2 border-body-color rotate-45 mr-3"></span>
               </li>
-              <li class="font-medium text-base text-primary">Portfolio Details</li>
+              <li class="font-medium text-base text-primary">Details Portfolio</li>
             </ul>
           </div>
         </div>
@@ -96,11 +96,11 @@ const project = projects.filter((project) => {
       <div class="flex flex-wrap -mx-5">
         <div class="w-full lg:w-8/12 px-5 mb-10">
           <div>
-            <h4 class="font-bold text-xl sm:text-2xl lg:text-xl xl:text-2xl text-black mb-8"><span class="text-primary">01.</span> Job details</h4>
+            <h4 class="font-bold text-xl sm:text-2xl lg:text-xl xl:text-2xl text-black mb-8"><span class="text-primary">01.</span> Details de la mission</h4>
 
             <ProjectDescription/>
 
-            <h4 class="font-bold text-xl sm:text-2xl lg:text-xl xl:text-2xl text-black mb-8"><span class="text-primary">02.</span> Technologies and tools</h4>
+            <h4 class="font-bold text-xl sm:text-2xl lg:text-xl xl:text-2xl text-black mb-8"><span class="text-primary">02.</span> Technologies et outils</h4>
 
             <ul class="list list-inside list-disc mb-7">
               {
