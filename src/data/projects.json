@@ -6,11 +6,11 @@
       "start": "2017",
       "end": "2019",
       "title": "Carrefour",
-      "intro_en": "Senior dev on a large web application on Solidus/Spree solution for multiple E-commerce websites.",
+      "intro_en": "Senior dev on a large web application on Solidus/Spree solution for multiple e-commerce websites.",
       "intro_fr": "Lead Dev senior sur plusieurs grands sites e-commerce avec le framework Spree/Solidus.",
       "technos": [
         "Ruby on Rails",
-        "Solidus / Spree ecommerce framework",
+        "Solidus / Spree e-commerce framework",
         "Algolia search engine",
         "Sidekiq background job processing",
         "Postresql",
