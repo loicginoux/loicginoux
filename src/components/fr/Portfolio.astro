@@ -1,6 +1,6 @@
 ---
-import projects from "../data/projects.json";
-import Project from "../components/Project.astro";
+import projects from "../../data/projects.json";
+import Project from "../../components/Project.astro";
 
 ---
 <section id="portfolio" class="pt-[120px] pb-[70px] bg-[#f8f9ff]">
@@ -8,14 +8,14 @@ import Project from "../components/Project.astro";
     <div class="flex flex-wrap mx-[-16px]">
       <div class="w-full px-4">
         <div class="max-w-[600px] mx-auto text-center mb-[50px]">
-          <span class="font-semibold text-lg text-primary block mb-2"> My portfolio </span>
-          <h2 class="font-bold text-black text-3xl sm:text-4xl md:text-[45px] mb-5">Recent works</h2>
-          <p class="font-medium text-lg text-body-color">These are the web applications and projects I worked on. Have a look to know more about my different missions and the web technologies I applied.</p>
+          <span class="font-semibold text-lg text-primary block mb-2"> Portfolio </span>
+          <h2 class="font-bold text-black text-3xl sm:text-4xl md:text-[45px] mb-5">Missions récentes</h2>
+          <p class="font-medium text-lg text-body-color">Voici une liste d'applications web et projets sur lesquels j'ai travaillé. Vous en apprendrez davantage sur mes différentes missions et les technologies web utilisées.</p>
         </div>
       </div>
       <div class="w-full px-4">
         <div class="portfolio-buttons flex flex-wrap items-center justify-center mb-12">
-          <button class="sm:font-semibold text-sm sm:text-base block py-2 px-5 md:mx-2 mb-2 rounded-full text-body-color active" data-filter="*">All</button>
+          <button class="sm:font-semibold text-sm sm:text-base block py-2 px-5 md:mx-2 mb-2 rounded-full text-body-color active" data-filter="*">Toutes</button>
           <button class="sm:font-semibold text-sm sm:text-base block py-2 px-5 md:mx-2 mb-2 rounded-full text-body-color hover:bg-primary hover:text-white" data-filter=".Frontend">Front End</button>
           <button class="sm:font-semibold text-sm sm:text-base block py-2 px-5 md:mx-2 mb-2 rounded-full text-body-color hover:bg-primary hover:text-white" data-filter=".Ruby_on_Rails">
             Ruby on Rails
