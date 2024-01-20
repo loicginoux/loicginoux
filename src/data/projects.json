@@ -32,7 +32,8 @@
       "intro_fr": "Développement full stack d'une application web de crowdfunding et d'accompagnement des employés pour la création d'entreprise.",
       "technos": [
         "Ruby on Rails",
-        "Knockout.js"
+        "Knockout.js",
+        "HTML/CSS"
       ],
       "slides_en":[],
       "slides_fr":[]
@@ -168,7 +169,8 @@
         "Ruby on Rails",
         "Mysql",
         "AngularJS",
-        "Google Maps API"
+        "Google Maps API",
+        "Elastic Search"
       ],
       "link": "http://www.kiffetescourses.com/",
       "slides_en":

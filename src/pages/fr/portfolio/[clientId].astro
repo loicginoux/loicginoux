@@ -1,19 +1,9 @@
 ---
-import Layout from '../../layouts/Layout.astro';
-import Navbar from '../../components/Navbar.astro';
-import Hero from '../../components/Hero.astro';
-import About from '../../components/About.astro';
-import Services from '../../components/Services.astro';
-import Portfolio from '../../components/Portfolio.astro';
-import Clients from '../../components/Clients.astro';
-import CTA from '../../components/CTA.astro';
-import Education from '../../components/Education.astro';
-import Pricing from '../../components/Pricing.astro';
-import Testimonials from '../../components/Testimonials.astro';
-import Blog from '../../components/Blog.astro';
-import Contact from '../../components/Contact.astro';
-import Footer from '../../components/Footer.astro';
-import projects from "../../data/projects.json";
+import Layout from '../../../layouts/fr/Layout.astro';
+import Navbar from '../../../components/fr/Navbar.astro';
+import Contact from '../../../components/fr/Contact.astro';
+import Footer from '../../../components/Footer.astro';
+import projects from "../../../data/projects.json";
 
 export function getStaticPaths() {
   return projects.map((project) => {
@@ -27,7 +17,7 @@ export function getStaticPaths() {
 
 const { clientId } = Astro.params;
 
-const ProjectDescription = (await import(`../../data/portfolio/fr/${clientId}.html`)).default
+const ProjectDescription = (await import(`../../../data/portfolio/fr/${clientId}.html`)).default
 
 const project = projects.filter((project) => {
   return project['id'] === clientId
@@ -37,18 +27,12 @@ const project = projects.filter((project) => {
 <Layout>
   <Navbar/>
 
-  <section class="relative z-10 pt-[150px] pb-[90px] mb-20 overflow-hidden">
+  <section class="relative z-10 pt-[150px] pb-[20px] mb-10 overflow-hidden">
     <div class="container">
       <div class="flex flex-wrap items-center mx-[-16px]">
-        <div class="w-full md:w-8/12 lg:w-7/12 px-4">
-          <div class="max-w-[570px] mb-12 md:mb-0">
-            <h1 class="font-bold text-black text-2xl sm:text-3xl mb-5">{project['title_fr']}</h1>
-            <p class="font-medium text-base text-body-color leading-relaxed">{project['intro_en']}</p>
-          </div>
-        </div>
-        <div class="w-full md:w-4/12 lg:w-5/12 px-4">
-          <div class="text-end">
-            <ul class="flex items-center md:justify-end">
+        <div class="w-full px-4">
+          <div class="">
+            <ul class="flex items-center ">
               <li class="flex items-center">
                 <a href="/#portfolio" class="font-medium text-base text-body-color pr-1 hover:text-primary"> Home </a>
                 <span class="block w-2 h-2 border-t-2 border-r-2 border-body-color rotate-45 mr-3"></span>
@@ -94,9 +78,56 @@ const project = projects.filter((project) => {
   <section class="pb-20">
     <div class="container">
       <div class="flex flex-wrap -mx-5">
+
+        <!-- infos -->
+        <div class="w-full lg:w-4/12 px-5">
+          <div class="bg-[#F8F9FF] border border-[#D7DFFF] py-9 px-6 sm:p-9 lg:px-6 xl:px-5 rounded-sm mb-10">
+            <h3 class="font-bold text-primary text-[22px] mb-6">{project['title']}</h3>
+            <p class="w-full font-medium text-body-color text-base mb-6">{project['intro_fr']}</p>
+            <ul>
+              <li class="flex lg:flex-wrap xl:flex-nowrap mb-3">
+                <span class="max-w-[80px] w-full font-medium text-black text-base flex justify-between">
+                  Categories
+                  <span class="text-body-color">:</span>
+                </span>
+                <span class="w-full font-medium text-body-color text-base pl-5 lg:pl-0 xl:pl-5">{project['categories']}</span>
+              </li>
+              <li class="flex lg:flex-wrap xl:flex-nowrap mb-3">
+                <span class="max-w-[80px] w-full font-medium text-black text-base flex justify-between">
+                  Période
+                  <span class="text-body-color">:</span>
+                </span>
+                <span class="w-full font-medium text-body-color text-base pl-5 lg:pl-0 xl:pl-5">{project['start']} - {project['end']}</span>
+              </li>
+              <li class="flex lg:flex-wrap xl:flex-nowrap mb-3">
+                <span class="max-w-[80px] w-full font-medium text-black text-base flex justify-between">
+                  Tags
+                  <span class="text-body-color">:</span>
+                </span>
+                <span class="w-full font-medium text-body-color text-base pl-5 lg:pl-0 xl:pl-5">{project['tags']}</span>
+              </li>
+              {
+                project['link']
+                &&
+                <li class="flex lg:flex-wrap xl:flex-nowrap mb-3">
+                  <span class="max-w-[80px] w-full font-medium text-black text-base flex justify-between">
+                    Website
+                    <span class="text-body-color">:</span>
+                  </span>
+                  <a href={`${project['link']}`} target=”_blank”>
+                    <span class="w-full font-medium text-body-color text-base pl-5 lg:pl-0 xl:pl-5">{project['link']}</span>
+                  </a>
+                </li>
+              }
+            </ul>
+          </div>
+        </div>
+
+
+        <!-- project details -->
         <div class="w-full lg:w-8/12 px-5 mb-10">
           <div>
-            <h4 class="font-bold text-xl sm:text-2xl lg:text-xl xl:text-2xl text-black mb-8"><span class="text-primary">01.</span> Details de la mission</h4>
+            <h4 class="font-bold text-xl sm:text-2xl lg:text-xl xl:text-2xl text-black mb-8"><span class="text-primary">01.</span> Détails du projet</h4>
 
             <ProjectDescription/>
 
@@ -133,54 +164,7 @@ const project = projects.filter((project) => {
             </ul>
           </div>
         </div>
-        <div class="w-full lg:w-4/12 px-5">
-          <div class="bg-[#F8F9FF] border border-[#D7DFFF] py-9 px-6 sm:p-9 lg:px-6 xl:px-5 rounded-sm mb-10">
-            <h3 class="font-bold text-primary text-[22px] mb-7">Project Info</h3>
-            <ul>
-              <li class="flex lg:flex-wrap xl:flex-nowrap mb-3">
-                <span class="max-w-[90px] w-full font-medium text-black text-base flex justify-between">
-                  Client
-                  <span class="text-body-color">:</span>
-                </span>
-                <span class="w-full font-medium text-body-color text-base pl-5 lg:pl-0 xl:pl-5">{project['title_fr']}</span>
-              </li>
-              <li class="flex lg:flex-wrap xl:flex-nowrap mb-3">
-                <span class="max-w-[90px] w-full font-medium text-black text-base flex justify-between">
-                  Category
-                  <span class="text-body-color">:</span>
-                </span>
-                <span class="w-full font-medium text-body-color text-base pl-5 lg:pl-0 xl:pl-5">{project['categories']}</span>
-              </li>
-              <li class="flex lg:flex-wrap xl:flex-nowrap mb-3">
-                <span class="max-w-[90px] w-full font-medium text-black text-base flex justify-between">
-                  Period
-                  <span class="text-body-color">:</span>
-                </span>
-                <span class="w-full font-medium text-body-color text-base pl-5 lg:pl-0 xl:pl-5">{project['start']} - {project['end']}</span>
-              </li>
-              <li class="flex lg:flex-wrap xl:flex-nowrap mb-3">
-                <span class="max-w-[90px] w-full font-medium text-black text-base flex justify-between">
-                  Tags
-                  <span class="text-body-color">:</span>
-                </span>
-                <span class="w-full font-medium text-body-color text-base pl-5 lg:pl-0 xl:pl-5">{project['tags']}</span>
-              </li>
-              {
-                project['link']
-                &&
-                <li class="flex lg:flex-wrap xl:flex-nowrap mb-3">
-                  <span class="max-w-[90px] w-full font-medium text-black text-base flex justify-between">
-                    Website
-                    <span class="text-body-color">:</span>
-                  </span>
-                  <a href={`${project['link']}`} target=”_blank”>
-                    <span class="w-full font-medium text-body-color text-base pl-5 lg:pl-0 xl:pl-5">{project['link']}</span>
-                  </a>
-                </li>
-              }
-            </ul>
-          </div>
-        </div>
+
       </div>
     </div>
   </section>

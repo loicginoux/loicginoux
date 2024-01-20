@@ -1,11 +1,14 @@
 ---
-const { project } = Astro.props
 import { getLangFromUrl } from '../i18n/utils';
+import { getRelativeLocaleUrl } from "astro:i18n";
+const { project } = Astro.props
 
 const lang = getLangFromUrl(Astro.url);
 const project_title = project['title'];
 const project_intro = project[`intro_${lang}`];
-const project_link = `${lang}/portfolio/${project['id']}`
+
+// const project_link = `${lang}/portfolio/${project['id']}`
+const project_link = getRelativeLocaleUrl(lang, `/portfolio/${project['id']}`)
 
 const tags = project["tags"].split(",").map((tag) => tag.replace(/ /g,"_"))
 ---

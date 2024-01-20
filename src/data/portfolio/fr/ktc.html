@@ -2,3 +2,16 @@
 <p class="text-base sm:text-lg lg:text-base xl:text-lg text-body-color mb-8">I joined the team to help them both on the back end and the front end part of the site. This application uses the stack Ruby on Rails backed by a Mysql database, talking with the AngularJS via a Grape API.</p>
 <p class="text-base sm:text-lg lg:text-base xl:text-lg text-body-color mb-8">On the public part of the site, I implemented the graphic remake and help on different features like the "closest shop interface" using the localization, Google Maps, and the list of shopping stores in France, The goal of the feature was to choose the closest stores to compare products from, via an intuitive interface.</p>
 <p class="text-base sm:text-lg lg:text-base xl:text-lg text-body-color mb-8">On the admin panel, The most chalenging feature was to make the "matching products" algorithm. Crawlers are scrapping different API and stores without stopping, and with the volum of data retrieved, we had to automatically find the good matchs for a product in other stores and if not available, find the most accurate replacement. This is a key part of this kind of comparison sites, and I had to find the best algorithm depending on product's name, brand, size, number of items, colors, etc...</p>
+
+
+<p class="text-base sm:text-lg lg:text-base xl:text-lg text-body-color mb-8">
+  Une application qui permet d'analyser un même panier sur les différents magasins de drives (Auchan, Intermarché, Leclerc, etc...) et permet ainsi de faire ses courses et commander sur le magasin le moins cher près de chez soi.
+</p>
+<p class="text-base sm:text-lg lg:text-base xl:text-lg text-body-color mb-8">
+  Quand j'ai rejoint l'équipe, j'ai travaillé autant sur l'API back-end que sur le code front end.
+</p>
+<p class="text-base sm:text-lg lg:text-base xl:text-lg text-body-color mb-8">
+  J'ai eu plusieurs missions sur cette application. La première étant sur la partie visible/publique du site, j'ai implémenté entre autres la partie graphique qui permet de choisir les différents magasins de proximités. Basé sur Google Maps API, et sur la localisation de l'utilisateur, l'utilisateur peut choisir dans quels magasins nous allions comparer son panier de courses.
+<p class="text-base sm:text-lg lg:text-base xl:text-lg text-body-color mb-8">
+  Ensuite, sur la partie backend, il a fallut implémenter un crawler qui agrégeaient les produits des différents supermarchés dans une base locale. A partir de là, Il a fallu construire l'algorithme de comparaison qui permet de retrouver le même produit dans les autres magasins. En effet, avec le volume de produits à traiter, il fallait faire quelque chose qui soit aussi automatisé et rapide. J'ai donc mis en place un workflow via Elastic Search, en se basant sur le nom, les marques, la taille, les quantités, etc... Cet algorithme a permis de traiter la majeure partie des produits mais certains restés sans équivalents car Elastic search donnait des résultats trop aléatoires. Dans ce cas, on a mis en place un traitement semi-automatisé, avec une interface rapide pour permettre à un humain de choisir le produit correspondant ou au moins un substitut.
+</p>

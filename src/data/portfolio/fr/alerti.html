@@ -1,12 +1,12 @@
 <p class="text-base sm:text-lg lg:text-base xl:text-lg text-body-color mb-8">
-  Alerti is a social media monitoring and analysis solution that allow to gather what is said about a company online.
+  Alerti est une solution de veille et d'analyse des médias sociaux. Elle est utilisé par des entreprises et personnes voulant contrôler et analyser leur image en ligne. Elle permet de récupérer ce qui est dit sur certains mots clés, par ex. le nom de l'entreprise, sur différentes sources tels que les blogs, forums, les commentaires sur les réseaux sociaux, etc... Ensuite l'app Alerti fait un travail d'analyse et de tri de ces données pour en extraire les informations importantes et en faire des tableaux d'analyses. Elle permet aussi de prendre des actions, par ex. répondre à un commentaire négatif sur Facebook.
 </p>
 <p class="text-base sm:text-lg lg:text-base xl:text-lg text-body-color mb-8">
-  A big part of the Ruby on Rails application is a crawling system that gathers all information needed for the users. With a constant growth, this system started to work slowly with some database tables of several hundred million rows.
+  L'application est basée sur le framework Ruby on Rails, et le coeur de l'application est un système de crawlers qui va récupérer les données sur différentes sources et API. Alerti a fait appel à mes services pour améliorer ce système de crawling qui n'était plus assez performant pour leur base d'utilisateurs en expansion.
 </p>
 <p class="text-base sm:text-lg lg:text-base xl:text-lg text-body-color mb-8">
-  My mission was to make this app scale to handle more and more users. I started doing some research on different technologies, benchmarking for different databases and optimizing db indexing and db structure.
+  Ma mission consistait à faire de ce système, un algorithme qui soit scalable et qui fonctionne plus rapidement, pour que Alerti puisse continuer à augmenter sa base d'utilisateur sans avoir de baisses de régime et sans ralentissements. La première phase était une phase d'étude. Il a fallu faire des recherches sur les différentes technologies existantes et différents types d'algorithme. Ensuite il a fallu faire un benchmarking des différentes bases de données (Mysql, postgresql, TokuDB et MongoDB) et voir leurs réactions avec des écritures et des lectures intensives.
 </p>
 <p class="text-base sm:text-lg lg:text-base xl:text-lg text-body-color mb-8">
-  The second part was building the new architecture for the crawler that could scale whatever the charge
+  Après avoir décidé des nouvelles briques technologiques utilisés (Sidekiq, TokuDB, Redis, RabbitMQ), L'implémentation du nouveau crawler a été réalisé avec succès. Depuis ce travail en 2012, le moteur de recherche est beaucoup plus stable et le moteur peut gagner en rapidité de crawling en quelques secondes grâces à l'auto-scaling proposé par Heroku. Alerti ayant été satisfait du travail effectué, nous collaborons de manière régulière sur différentes évolutions et optimisations de leur application web.
 </p>

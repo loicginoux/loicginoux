@@ -1,16 +1,11 @@
 <p  class="text-base sm:text-lg lg:text-base xl:text-lg text-body-color mb-8">
-Before opening its API to their users, they needed to secure it so that only authenticated external applications could access the API and do actions depending on their access scope.
+  Avant de rendre l'api Tilkee publique à leurs utilisateurs, ce client avant besoin de mettre en place un système d'authentification pour permettre aux applications externes d'utiliser l'API de manière contrôlée et sécurisée. Le but étant de pouvoir suivre et analyser qui accéder à l'API et s'assurer que les ressources demander rester bien dans la portée des ressources disponibles chez ce client.
 </p>
 
 <p  class="text-base sm:text-lg lg:text-base xl:text-lg text-body-color mb-8">
-I set up for that a Oauth2.0 service provider in Rails. External applications like Salesforce can now hook up Tilkee API into their own system.
+  J'ai donc mis en place un "service provider" qui permette, via le protocole Oauth2.0, d'encadrer le workflow d'authentification à l'API, tout cela en utilisant leur application Ruby on Rails existante. Des applications externes comme Salesforce peuvent maintenant se coupler à Tilkee pour en faire un système plus attractif.
 </p>
 
 <p  class="text-base sm:text-lg lg:text-base xl:text-lg text-body-color mb-8">
-The second part of the mission was to make the registration and login processes as easy as possible using external providers like Linkedin or Google apps.
+  La seconde partie du système était de mettre en place un système d'authentification et enregistrement des utilisateurs non seulement via un email/mot de passe mais aussi via des applications externes telles que Linkedin, Facebook ou Google.
 </p>
-
-<p  class="text-base sm:text-lg lg:text-base xl:text-lg text-body-color mb-8">
-If users have their google or Linkedin accounts associated, they can get authenticated in the application without having to enter any login credentials.
-</p>
-
