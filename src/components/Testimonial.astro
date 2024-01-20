@@ -1,5 +1,8 @@
 ---
+import { getLangFromUrl } from '../i18n/utils';
+const lang = getLangFromUrl(Astro.url);
 const { testimonial } = Astro.props
+const testimonial_content = testimonial[`content_${lang}`];
 ---
 
 <div class="w-full lg:w-1/2 px-4">
@@ -8,7 +11,7 @@ const { testimonial } = Astro.props
       <img src="images/testimonial/lineicon.svg" alt="lineicons" class="h-5" />
     </div> -->
     <p class="font-medium text-lg text-body-color mb-8">
-      {testimonial["content_en"]}
+      {testimonial_content}
     </p>
     <div class="flex items-center">
       <div class="max-w-[60px] w-full h-[60px] rounded-full overflow-hidden mr-3">

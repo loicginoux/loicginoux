@@ -1,5 +1,5 @@
 [
-    {
+     {
         "content_en": "He was able to understand our functionnal logic and the code of our application very quickly. We are very satisfied with the work done and recommend him with our eyes shut.\n",
         "content_fr": "Il a su intégrer notre logique fonctionnelle et appréhender le code de l’application très rapidement. Nous sommes très satisfaits du travail qui a été accompli et le recommandons les yeux fermés !\n",
         "by": "Timothée Saumet",
@@ -30,5 +30,13 @@
         "company": "Cocolis",
         "position": "CTO",
         "image_path": "images/testimonial/sebfie.png"
+    },
+    {
+        "content_en": "I am pleased to recommend Loic, a freelance developer whose expertise in Ruby on Rails and Solidus greatly contributed to our success at epicery during his two-year tenure. As VP of Engineering, I worked closely with Loic on a pivotal project: transitioning our payment provider from Adyen to Stripe. A project that may not have succeeded without his critical involvement. Loic's methodical approach, blending thoughtful analysis and strategic questioning, proved invaluable. Beyond his technical skills, Loic's collaborative nature and positive attitude make him a tremendous asset to any team. His professionalism and commitment to quality are exemplary. I confidently recommend Loic for any endeavor he chooses to pursue, knowing he will bring the same level of excellence and dedication.",
+        "content_fr": "Je suis ravi de recommander Loïc, un développeur indépendant dont l'expertise en Ruby on Rails et Solidus a largement contribué à notre succès chez epicery au cours de ses deux années de service. En tant que VP de l'Ingénierie, j'ai travaillé étroitement avec Loïc sur un projet clé : la transition de notre prestataire de paiement d'Adyen à Stripe. Un projet qui n'aurait peut-être pas réussi sans son implication cruciale. L'approche méthodique de Loïc, mêlant une analyse réfléchie et des questionnements stratégiques, s'est avérée inestimable. Au-delà de ses compétences techniques, la nature collaborative et l'attitude positive de Loïc en font un atout considérable pour toute équipe. Son professionnalisme et son engagement envers la qualité sont exemplaires. Je recommande Loïc en toute confiance pour toute entreprise qu'il choisira de poursuivre, sachant qu'il apportera le même niveau d'excellence et de dévouement.",
+        "by": "Franck Patte",
+        "company": "Epicery",
+        "position": "VP of Engineering",
+        "image_path": "images/testimonial/epicery.png"
     }
 ]
