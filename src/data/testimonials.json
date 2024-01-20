@@ -5,7 +5,7 @@
         "by": "Timothée Saumet",
         "company": "Tilkee",
         "position": "CTO",
-        "image_path": "images/testimonial/tilkee.png"
+        "image_path": "/images/testimonial/tilkee.png"
     },
     {
         "content_en": "I highly recommend him as front end contractor. He is very motivated, highly skilled in his trade and delivers a good job, on time and on budget. I will use his service in the future if we have a front end ask that will need to be outsourced.\n",
@@ -13,7 +13,7 @@
         "by": "Albert Guðmundsson",
         "company": "North Plains",
         "position": "Unify Technical Lead",
-        "image_path": "images/testimonial/vyre.png"
+        "image_path": "/images/testimonial/vyre.png"
     },
     {
         "content_en": "I approached Loic Ginoux for the technical audit of a website using Ruby (Ruby on Rails). The mission was carried out within the deadlines, with methodology, and perfect technical expertise. Thank you.\n",
@@ -21,7 +21,7 @@
         "by": "Antoine Huron",
         "company": "Philia Medical Editions",
         "position": "CEO",
-        "image_path": "images/testimonial/philia.png"
+        "image_path": "/images/testimonial/philia.png"
     },
     {
         "content_en": "I have been working with Loic for 9 years now, and I have never been disappointed. Diligent, loyal, and proactive, Loic will bring the dynamism and quality your project needs. Faithful to the best practices of Ruby on Rails, his code is always well-documented. Whether as a developer or a lead, you will undoubtedly be satisfied with his work. In case of urgency, he will also be available.\n",
@@ -29,7 +29,7 @@
         "by": "Sebastien Fieloux",
         "company": "Cocolis",
         "position": "CTO",
-        "image_path": "images/testimonial/sebfie.png"
+        "image_path": "/images/testimonial/sebfie.png"
     },
     {
         "content_en": "I am pleased to recommend Loic, a freelance developer whose expertise in Ruby on Rails and Solidus greatly contributed to our success at epicery during his two-year tenure. As VP of Engineering, I worked closely with Loic on a pivotal project: transitioning our payment provider from Adyen to Stripe. A project that may not have succeeded without his critical involvement. Loic's methodical approach, blending thoughtful analysis and strategic questioning, proved invaluable. Beyond his technical skills, Loic's collaborative nature and positive attitude make him a tremendous asset to any team. His professionalism and commitment to quality are exemplary. I confidently recommend Loic for any endeavor he chooses to pursue, knowing he will bring the same level of excellence and dedication.",
@@ -37,6 +37,6 @@
         "by": "Franck Patte",
         "company": "Epicery",
         "position": "VP of Engineering",
-        "image_path": "images/testimonial/epicery.png"
+        "image_path": "/images/testimonial/epicery.png"
     }
 ]
