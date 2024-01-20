@@ -1,13 +1,23 @@
 ---
+import { getLangFromUrl } from '../i18n/utils';
+import { getRelativeLocaleUrl } from "astro:i18n";
 const { project } = Astro.props
+
+const lang = getLangFromUrl(Astro.url);
+const project_title = project['title'];
+const project_intro = project[`intro_${lang}`];
+
+// const project_link = `${lang}/portfolio/${project['id']}`
+const project_link = getRelativeLocaleUrl(lang, `/portfolio/${project['id']}`)
+
 const tags = project["tags"].split(",").map((tag) => tag.replace(/ /g,"_"))
 ---
 
 <div class={`w-full md:w-1/4 px-4 item ${tags}`}>
   <div class="mb-12">
     <div class="relative group mb-8 overflow-hidden shadow-service rounded-md">
-      <a href={`/portfolio/${project['id']}`}>
-        <img src={`images/portfolio/${project['id']}/intro.jpg`} alt={`${project['title_fr']}`} class="w-full" />
+      <a href={project_link}>
+        <img src={`images/portfolio/${project['id']}/intro.jpg`} alt={`${project_title}`} class="w-full" />
         <div
           class="absolute w-full h-full top-0 left-0 bg-primary bg-opacity-[17%] flex items-center justify-center opacity-0 invisible group-hover:opacity-100 group-hover:visible transition"
         >
@@ -20,8 +30,8 @@ const tags = project["tags"].split(",").map((tag) => tag.replace(/ /g,"_"))
       </a>
     </div>
     <h3 class="mt-6">
-      <a href={`/portfolio/${project['id']}`} class="font-semibold text-black hover:text-primary text-xl inline-block mb-3">{project['title_fr']}</a>
+      <a href={project_link} class="font-semibold text-black hover:text-primary text-xl inline-block mb-3">{project_title}</a>
     </h3>
-    <p class="font-medium text-base text-body-color">{project['intro_en']}</p>
+    <p class="font-medium text-base text-body-color">{project_intro}</p>
   </div>
 </div>

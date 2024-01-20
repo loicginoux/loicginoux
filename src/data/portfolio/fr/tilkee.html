@@ -1,0 +1,11 @@
+<p  class="text-base sm:text-lg lg:text-base xl:text-lg text-body-color mb-8">
+  Avant de rendre l'api Tilkee publique à leurs utilisateurs, ce client avant besoin de mettre en place un système d'authentification pour permettre aux applications externes d'utiliser l'API de manière contrôlée et sécurisée. Le but étant de pouvoir suivre et analyser qui accéder à l'API et s'assurer que les ressources demander rester bien dans la portée des ressources disponibles chez ce client.
+</p>
+
+<p  class="text-base sm:text-lg lg:text-base xl:text-lg text-body-color mb-8">
+  J'ai donc mis en place un "service provider" qui permette, via le protocole Oauth2.0, d'encadrer le workflow d'authentification à l'API, tout cela en utilisant leur application Ruby on Rails existante. Des applications externes comme Salesforce peuvent maintenant se coupler à Tilkee pour en faire un système plus attractif.
+</p>
+
+<p  class="text-base sm:text-lg lg:text-base xl:text-lg text-body-color mb-8">
+  La seconde partie du système était de mettre en place un système d'authentification et enregistrement des utilisateurs non seulement via un email/mot de passe mais aussi via des applications externes telles que Linkedin, Facebook ou Google.
+</p>

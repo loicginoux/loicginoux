@@ -5,13 +5,12 @@
       "categories": "Retail",
       "start": "2017",
       "end": "2019",
-      "title_en": "Major French Retailer",
-      "title_fr": "Carrefour",
-      "intro_en": "Senior dev on large web application on Solidus/Spree solution for multiple E-commerce websites.",
+      "title": "Carrefour",
+      "intro_en": "Senior dev on a large web application on Solidus/Spree solution for multiple e-commerce websites.",
       "intro_fr": "Lead Dev senior sur plusieurs grands sites e-commerce avec le framework Spree/Solidus.",
       "technos": [
         "Ruby on Rails",
-        "Solidus / Spree ecommerce framework",
+        "Solidus / Spree e-commerce framework",
         "Algolia search engine",
         "Sidekiq background job processing",
         "Postresql",
@@ -27,14 +26,14 @@
       "categories": "Crowdfunding, internal tool, collaboration",
       "start": "2015",
       "end": "2019",
-      "title_en": "Major French Cosmetic Brand",
-      "title_fr": "L'Oréal",
+      "title": "L'Oréal",
       "link": "https://ozezozer.fr/",
-      "intro_en": "a crowdfunding web application to support employees to build their own business.",
+      "intro_en": "An internal crowdfunding web app to help employees build their own business.",
       "intro_fr": "Développement full stack d'une application web de crowdfunding et d'accompagnement des employés pour la création d'entreprise.",
       "technos": [
         "Ruby on Rails",
-        "Knockout.js"
+        "Knockout.js",
+        "HTML/CSS"
       ],
       "slides_en":[],
       "slides_fr":[]
@@ -45,10 +44,9 @@
       "categories": "Transport, Logistics, Sharing economy",
       "start": "2019",
       "end": "2023",
-      "title_en": "Cocolis",
-      "title_fr": "Cocolis",
+      "title": "Cocolis",
       "link": "http://www.cocolis.fr",
-      "intro_en": "Ecological and innovative logistics solution offering a delivery service by individuals.",
+      "intro_en": "Ecological and innovative delivery logistics solution offered by individuals.",
       "intro_fr": "Solution logistique écologique et innovante proposant un service de livraison par des particuliers.",
       "technos": [
         "Ruby on Rails",
@@ -93,8 +91,7 @@
       "categories": "Social media management, Brand monitoring",
       "start": "2014",
       "end": "2022",
-      "title_en": "Alerti",
-      "title_fr": "Alerti",
+      "title": "Alerti",
       "link": "http://www.alerti.com",
       "intro_en": "A social media monitoring service that needed to make a new highly scalable architecture.",
       "intro_fr": "Une solution de veille et d'analyse des médias sociaux qui avait besoin d'une architecture plus performante et évolutive.",
@@ -144,8 +141,7 @@
       "categories": "Security, Oauth2",
       "start": "2014",
       "end": "2014",
-      "title_en": "Tilkee",
-      "title_fr": "Tilkee",
+      "title": "Tilkee",
       "intro_en": "Securisation of its API with Oauth2.0 protocol and authentication via external providers like Linkedin.",
       "intro_fr": "Sécurisation de l'API Tilkee avec le protocole Oauth2.0 et authentification via les réseaux sociaux tels que Google, Linkedin et Facebook.",
       "technos": [
@@ -166,15 +162,15 @@
       "categories": "comparison shopping",
       "start": "2013",
       "end": "2014",
-      "title_en": "Kiffe tes courses",
-      "title_fr": "Kiffe tes courses",
-      "intro_en": "A comparison shopping engine that crawls products data from different French online shopping sites and helps you build the cheapest cart.",
+      "title": "Kiffe tes courses",
+      "intro_en": "A comparison shopping engine that gathers product data from different online shopping sites to build the cheapest cart.",
       "intro_fr": "Un site de comparaison de panier de courses sur les différents sites de supermarché qui permet de trouver le panier le moins cher et de passer commande.",
       "technos": [
         "Ruby on Rails",
         "Mysql",
         "AngularJS",
-        "Google Maps API"
+        "Google Maps API",
+        "Elastic Search"
       ],
       "link": "http://www.kiffetescourses.com/",
       "slides_en":
@@ -214,8 +210,7 @@
       "categories": "Asset management, DAM",
       "start": "2009",
       "end": "2012",
-      "title_en": "OnBrand",
-      "title_fr": "OnBrand",
+      "title": "OnBrand",
       "intro_en": "A modular Saas solution for managing brands, used by Shell, Diageo and Nestle among others.",
       "intro_fr": "Une application Saas modulaire pour la gestion des ressources marketing utilisées par Shell, Diageo et Nestle.",
       "technos": [
@@ -260,8 +255,7 @@
       "categories": "Asset management, DAM",
       "start": "2009",
       "end": "2012",
-      "title_en": "Diageo SmartBrand",
-      "title_fr": "Diageo SmartBrand",
+      "title": "Diageo SmartBrand",
       "intro_en": "World's leading premium drinks business, Diageo has a portal used globally to manage their assets, marketing projects, customers...",
       "intro_fr": "Leader dans les boissons alcoolisées, Diageo a un portail utilisé mondialement pour la gestion de leurs ressources marketing et de leurs clients.",
       "technos": [
