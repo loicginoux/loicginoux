@@ -2,7 +2,7 @@
   {
       "id": "vinum",
       "tags": "Ruby on Rails",
-      "categories": "Retail",
+      "categories": "E-commerce",
       "start": "2017",
       "end": "2019",
       "title": "Carrefour",
@@ -56,34 +56,29 @@
         "React front end framework",
         "Heroku hosting solution"
       ],
-      "slides_en":[
-        {
-            "note": "Homepage"
-        },
-        {
-            "note": "Serach page"
-        },
-        {
-            "note": "Ride creation form"
-        },
-        {
-            "note": "Inbox"
-        }
+      "slides_en":[{"note": "Homepage"},{"note": "Search page"},{"note": "Ride creation form"},{"note": "Inbox"}],
+      "slides_fr":[{"note": "Homepage"},{"note": "Search page"},{"note": "Ride creation form"},{"note": "Inbox"}]
+  },
+  {
+      "id": "epicery",
+      "tags": "Fullstack",
+      "categories": "Marketplace, E-commerce",
+      "start": "2022",
+      "end": "2024",
+      "title": "Epicery",
+      "link": "https://www.epicery.com/",
+      "intro_en": "A fresh product and chef-prepared meal delivery service, directly from your local neighborhood shops.",
+      "intro_fr": "Un service de livraison de produits frais et plats de chefs, en direct de vos commerces de quartier.",
+      "technos": [
+        "Ruby on Rails",
+        "Vue.js",
+        "HTML/CSS",
+        "Hotwire",
+        "GCP",
+        "Stripe"
       ],
-      "slides_fr":[
-        {
-            "note": "Homepage"
-        },
-        {
-            "note": "Serach page"
-        },
-        {
-            "note": "Ride creation form"
-        },
-        {
-            "note": "Inbox"
-        }
-      ]
+      "slides_en":[{"note": "Homepage"},{"note": "Shopping Cart"},{"note": "Checkout page"}],
+      "slides_fr":[{"note": "Page d'acceuil"},{"note": "Panier"},{"note": "page de Checkout"}]
   },
   {
       "id": "alerti",
@@ -105,35 +100,9 @@
         "Heroku hosting solution"
       ],
       "slides_en":
-      [
-          {
-              "note": "Homepage"
-          },
-          {
-              "note": "Results page for an alert"
-          },
-          {
-              "note": "Facebook stats page"
-          },
-          {
-              "note": "Twitter stats page"
-          }
-      ],
+      [{"note": "Homepage"},{"note": "Results page for an alert"},{"note": "Facebook stats page"},{"note": "Twitter stats page"}],
       "slides_fr":
-      [
-          {
-              "note": "Homepage"
-          },
-          {
-              "note": "page de résultats d'une alerte"
-          },
-          {
-              "note": "Page de stats Facebook"
-          },
-          {
-              "note": "Page de stats Twitter"
-          }
-      ]
+      [{"note": "Homepage"},{"note": "page de résultats d'une alerte"},{"note": "Page de stats Facebook"},{"note": "Page de stats Twitter"}]
   },
   {
       "id": "tilkee",
@@ -174,35 +143,9 @@
       ],
       "link": "http://www.kiffetescourses.com/",
       "slides_en":
-      [
-          {
-              "note": "Homepage"
-          },
-          {
-              "note": "Closest shop finder"
-          },
-          {
-              "note": "Products list and cart"
-          },
-          {
-              "note": "choose the cheapest store"
-          }
-      ],
+      [{"note": "Homepage"},{"note": "Closest shop finder"},{"note": "Products list and cart"},{"note": "choose the cheapest store"}],
       "slides_fr":
-      [
-          {
-              "note": "Homepage"
-          },
-          {
-              "note": "Interface de recherche de magasins proches"
-          },
-          {
-              "note": "Liste des produits et panier"
-          },
-          {
-              "note": "Interface de choix du magasins le moins cher"
-          }
-      ]
+      [{"note": "Homepage"},{"note": "Interface de recherche de magasins proches"},{"note": "Liste des produits et panier"},{"note": "Interface de choix du magasins le moins cher"}]
   },
   {
       "id": "onbrand",
@@ -219,35 +162,9 @@
       ],
       "link": "http://www.northplains.com/on-brand/",
       "slides_en":
-      [
-          {
-              "note": "Project Stages and Annotations"
-          },
-          {
-              "note": "My Projects"
-          },
-          {
-              "note": "Project Details"
-          },
-          {
-              "note": "Project Assets"
-          }
-      ],
+      [{"note": "Project Stages and Annotations"},{"note": "My Projects"},{"note": "Project Details"},{"note": "Project Assets"}],
       "slides_fr":
-      [
-          {
-              "note": "Etape du projet et annotations"
-          },
-          {
-              "note": "Vue: mes projets"
-          },
-          {
-              "note": "Vue: details du projet"
-          },
-          {
-              "note": "Vue: ressources d'un projet"
-          }
-      ]
+      [{"note": "Etape du projet et annotations"},{"note": "Vue: mes projets"},{"note": "Vue: details du projet"},{"note": "Vue: ressources d'un projet"}]
   },
   {
       "id": "diageo",
@@ -263,34 +180,8 @@
         "Vanilla javascript"
       ],
       "slides_en":
-      [
-          {
-              "note": "Homepage"
-          },
-          {
-              "note": "Asset collection"
-          },
-          {
-              "note": "Pick-up area"
-          },
-          {
-              "note": "Asset library search"
-          }
-      ],
+      [{"note": "Homepage"},{"note": "Asset collection"},{"note": "Pick-up area"},{"note": "Asset library search"}],
       "slides_fr":
-      [
-          {
-              "note": "Homepage"
-          },
-          {
-              "note": "Liste des ressources"
-          },
-          {
-              "note": "Pick-up area"
-          },
-          {
-              "note": "Interface de recherche de la librairie des ressources"
-          }
-      ]
+      [{"note": "Homepage"},{"note": "Liste des ressources"},{"note": "Pick-up area"},{"note": "Interface de recherche de la librairie des ressources"}]
   }
 ]
