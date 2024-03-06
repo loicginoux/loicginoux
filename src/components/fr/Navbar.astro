@@ -1,3 +1,7 @@
+---
+const currentPath = Astro.url.pathname;
+const flagHref = currentPath.includes('/fr') ? currentPath.split("/fr").pop() : `/fr${currentPath}`;
+---
 <header class="header bg-transparent absolute top-0 left-0 z-40 w-full flex items-center transition">
   <div class="container">
     <div class="flex mx-[-16px] items-center justify-between relative">
@@ -15,7 +19,7 @@
       </div>
       <div class="flex px-4 justify-between items-center w-full">
         <div>
-          <a href="/fr" class="block absolute right-24 top-1/2 translate-y-[-50%] md:hidden">
+          <a href={flagHref} class="block absolute right-24 top-1/2 translate-y-[-50%] md:hidden">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 30" width="30" height="20">
               <clipPath id="t">
                 <path d="M25,15h25v15zv15h-25zh-25v-15zv-15h25z"/>
@@ -48,7 +52,7 @@
                 <a href="/fr/#portfolio" class="menu-scroll text-base text-black group-hover:text-primary py-2 lg:py-6 lg:inline-flex lg:px-0 flex mx-8 lg:mr-0 lg:ml-8 xl:ml-12"> Portfolio </a>
               </li>
               <li class="relative group">
-                <a href="/fr/#education" class="menu-scroll text-base text-black group-hover:text-primary py-2 lg:py-6 lg:inline-flex lg:px-0 flex mx-8 lg:mr-0 lg:ml-8 xl:ml-12"> Expériences </a>
+                <a href="/fr/#education" class="menu-scroll text-base text-black group-hover:text-primary py-2 lg:py-6 lg:inline-flex lg:px-0 flex mx-8 lg:mr-0 lg:ml-8 xl:ml-12"> CV </a>
               </li>
               <li class="relative group">
                 <a href="/fr/#testimonial" class="menu-scroll text-base text-black group-hover:text-primary py-2 lg:py-6 lg:inline-flex lg:px-0 flex mx-8 lg:mr-0 lg:ml-8 xl:ml-12"> Témoignages </a>
@@ -60,7 +64,7 @@
           </nav>
         </div>
         <div class="md:flex justify-end hidden md:show pr-16 lg:pr-0">
-          <a href="/" class="flex inline-flex md:mr-8 items-center ">
+          <a href={flagHref} class="flex inline-flex md:mr-8 items-center ">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 30" width="30" height="20">
               <clipPath id="t">
                 <path d="M25,15h25v15zv15h-25zh-25v-15zv-15h25z"/>
