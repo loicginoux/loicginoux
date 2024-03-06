@@ -172,7 +172,7 @@ function onScroll(event) {
   for (let i = 0; i < sections.length; i++) {
     const currLink = sections[i];
     const val = currLink.getAttribute("href");
-    const refElement = document.querySelector(val.replace("/", ""));
+    const refElement = document.querySelector(val.split("/").pop());
     if (!refElement) return;
     const scrollTopMinus = scrollPos + 73;
     if (refElement.offsetTop <= scrollTopMinus && refElement.offsetTop + refElement.offsetHeight > scrollTopMinus) {
