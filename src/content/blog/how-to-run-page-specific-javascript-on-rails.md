@@ -1,13 +1,13 @@
 ---
-layout: ../../layouts/BlogLayout.astro
-title: "How to run page specific javascript on Rails"
-date: 2013-05-18
-description: 'test test'
-tags: ["javascript", "rails"]
+title: How to run page specific javascript on Rails
+snippet: How I manage to run and compartiment my javascript code based on models and actions
+pubDate: 2013-05-18
 published: true
-lang: "en"
+tags:
+  - javascript
+  - rails
+category: Tips
 ---
-
 In Ruby on Rails, all your javascript is available everywhere, but we always want to run some javascript only on certain pages.  This is how I manage to run and compartiment my javascript code based on models and actions.
 
 <!-- more -->

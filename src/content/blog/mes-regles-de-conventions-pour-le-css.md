@@ -1,14 +1,13 @@
 ---
-layout: ../../layouts/BlogLayout.astro
 title: Mes règles de conventions pour le css
-date: 2015-07-14
-description: "Comment mettre de l'ordre dans vos fichiers css"
-tags: ["css", "guidelines"]
-lang: "fr"
+pubDate: 2015-07-14
+snippet: Comment mettre de l'ordre dans vos fichiers css
+tags:
+  - css
+  - guideline
 published: true
+category: Tips
 ---
-
-
 Je profite de ce 14 juillet pour lire un peu sur les conventions css des différents sites web. Pour les anglophones, je vous conseille de lire comment font les différents sites tels que [Trello](http://blog.trello.com/refining-the-way-we-structure-our-css-at-trello/), [Medium](https://gist.github.com/fat/a47b882eb5f84293c4ed) ou bien encore [Github](http://markdotto.com/2014/07/23/githubs-css/). Ces sites ont suivi leur propre chemin en mixant à leur sauce des méthodes tels que [BEM](https://en.bem.info/method/) (Blocks - Elements - Modifiers) ou bien le [OOCSS](http://www.smashingmagazine.com/2011/12/12/an-introduction-to-object-oriented-css-oocss/). Si vous ne connaissiez pas ces techniques, commencez par ça, ca ne peut que vous faire du bien!
 <!-- more -->
 
@@ -100,4 +99,3 @@ Performances
 C'est tout pour aujourd'hui, N'hésitez pas si vous avez des techniques que vous voudriez partager aussi.
 
 Happy Coding!
-

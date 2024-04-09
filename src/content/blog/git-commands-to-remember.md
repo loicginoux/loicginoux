@@ -1,13 +1,12 @@
 ---
-layout: ../../layouts/BlogLayout.astro
-title: "Git commands to remember "
-date: 2014-02-10
-description: 'test test'
-tags: ["programming processes"]
-published: true
-lang: "en"
+title: Git commands to remember
+pubDate: 2014-02-10
+snippet: Notes about some git commands I like to remember.
+tags:
+  - programming processes
+published: tru
+category: Tips
 ---
-
 Even if I use git everyday, I don't always remember the exact commands to do some git actions. This is few notes I like to have close when I need them.
 
 

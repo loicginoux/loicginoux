@@ -1,15 +1,14 @@
 ---
-layout: ../../layouts/BlogLayout.astro
-title: "Introduction to Oauth2.0 authorisation framework"
-date: 2014-03-20
-description: 'test test'
-tags: ["authentication", "security"]
-published: true
-frontpage: true
-lang: "en"
+title: Introduction to Oauth2.0 authorisation framework
+pubDate: 2014-03-20
+snippet: A summary to understand how the Oauth2.0 protocol works
+tags:
+  - authentication
+  - security
+published: tru
+lang: en
+category: Tutorials
 ---
-
-
 There are different protocols and frameworks for authorizing a third party application to access restricted content but the most recent and the one that most social websites use is the Oauth2.0 protocol.
 
 This is a complete different protocol as Oauth v1 so be carefull when you are are reading about Oauth and know which version the article is talking about.
@@ -79,6 +78,3 @@ I hope you see a bit more clearly into this authorisation process but you should
 
 ### sources
 [Oauth2.0 specifications](http://tools.ietf.org/html/rfc6749)
-
-
-

@@ -1,16 +1,14 @@
 ---
-layout: ../../layouts/BlogLayout.astro
-title: "Pros and cons of Test Driven Development"
-date: 2013-06-07
-description: 'test test'
-tags: [testing,'programming processes']
+title: Pros and cons of Test Driven Development
+pubDate: 2013-06-07
+snippet: I won't tell you again that testing your app is important, you know that, right? I was asked this question recently and I think it's worth sharing it here.
+tags:
+  - testing
+  - programming processes
 published: true
-lang: "en"
+category: Reviews
 ---
-
 I won't tell you again that testing your app is important, you know that, right? I was asked this question recently and I think it's worth sharing it here.
-
-<!-- more -->
 
 # PROS: #
 1. It is first a **safety net**. All the existing code is tested. As human programmers we make mistakes and when we change or improve a code, TDD will allow us to spot our bugs quicker.

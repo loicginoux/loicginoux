@@ -1,0 +1,25 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '@layouts/Layout.astro';
+import Navbar from '@components/Navbar.astro';
+import Contact from '@components/Contact.astro';
+
+import Post from '@components/blog/Post.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: post,
+  }));
+}
+
+const post = Astro.props;
+
+---
+
+<Layout>
+  <Navbar/>
+  <Post post={post} />
+  <Contact/>
+</Layout>

@@ -1,0 +1,14 @@
+---
+import FormattedDate from '@components/FormattedDate.astro';
+import Item from '@components/blog/ListItem.astro';
+import PostTags from '@components/blog/Tags.astro';
+const { posts } = Astro.props;
+---
+<div class="relative pt-12">
+  <span class="absolute top-0 block left-2  w-[1px] h-full bg-[#d7dfff]"></span>
+  <ul>
+    {posts.map((post) => (
+      <Item post={post} />
+    ))}
+  </ul>
+</div>

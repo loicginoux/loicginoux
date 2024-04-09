@@ -1,14 +1,12 @@
 ---
-layout: ../../layouts/BlogLayout.astro
-title: "Joining the greaaat network"
-date: 2014-02-26
-description: 'test test'
-tags: ["freelancing"]
+title: Joining the greaaat network
+pubDate: 2014-02-26
+snippet: A quick note to say that I joined a network of french freelancers Greaaat
+tags:
+  - freelancing
 published: true
-frontpage: true
-lang: "en"
+category: News
 ---
-
 A quick note to say that I joined a network of french freelancers called [greaaat](http://www.greaaat.com), and you know what? It looks.... promising!
 
 That was exactly the kind of network I was looking for. I think that's a really good idea. As a freelancer you are usually by yourself when you are looking for answers or guidance, and usually Google is your best friend in this case (quit sad isn't it?).

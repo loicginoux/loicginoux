@@ -1,14 +1,12 @@
 ---
-layout: ../../layouts/BlogLayout.astro
-title: "Gemfile bootstrap"
-date: 2014-02-28
-description: 'test test'
-tags: ["rails"]
-published: true
-lang: "en"
+title: Gemfile bootstrap
+pubDate: 2014-02-28
+snippet: A list of gems I like to use in my Ruby on Rails projects
+tags:
+  - rails
+published: tru
+category: Code sharing
 ---
-
-
 I will just keep here a list of gems I like to use in my Ruby on Rails projects.
 
 There are so many good gems out there I usually forget some of them when starting a project. These are only here as a reminder for myself. All the configuration needs to be done and versions need adjustment if necessary.

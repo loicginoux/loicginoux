@@ -1,13 +1,14 @@
 ---
-layout: ../../layouts/BlogLayout.astro
-title: Passer des arguments à une tache rake
-description: "L'écriture d'une tâche rake est monnaie courante pour les développeurs Ruby on Rails"
-date: 2017-05-17
-tags: ["ruby", "rails", "rake"]
-lang: "fr"
+title: Passer des arguments à une tâche rake
+snippet: L'écriture d'une tâche rake est monnaie courante pour les développeurs Ruby on Rails
+pubDate: 2017-05-17
+tags:
+  - ruby
+  - rails
+  - rake
 published: true
+category: Tips
 ---
-
 L'écriture d'une tâche rake est monnaie courante pour les développeurs Ruby on Rails, mais on a tous cherché à un moment donné comment passer des arguments à sa tâche rake pour la rendre plus générique. C'est d'autant plus un problème que la syntaxe n’est pas vraiment facile à mémoriser et il faut aussi se rappeler comment faire les appels à ces tâches rake avec arguments.
 Je vous mets donc ici différentes tâches utilisant des arguments.
 
@@ -68,4 +69,3 @@ end
 ```
 
 Emballé, c'est pesé !
-

@@ -1,0 +1,53 @@
+---
+import Layout from '@layouts/Layout.astro';
+import Navbar from '@components/Navbar.astro';
+import BlogList from "@components/blog/List.astro";
+
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  var posts = await getCollection("blog", ({ data }) => {
+      return data.published;
+  });
+  const tags = new Set<string>();
+  posts.map((post) => {
+    Array.isArray(post.data.tags) && post.data.tags.map((tag) => tags.add(tag.toLowerCase()));
+  });
+
+  return Array.from(tags).flatMap((tag) => {
+    return {
+      params: { tag: tag },
+      props: {
+        posts: posts.filter((post) => Array.isArray(post.data.tags) && post.data.tags.find((elem) => elem.toLowerCase() === tag)),
+        tag: tag,
+      }
+    }
+  });
+}
+
+const { tag, posts } = Astro.props;
+
+const sortedPost = posts.sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+---
+
+<Layout>
+  <Navbar/>
+
+  <section id="news" class="pt-[120px] bg-white relative z-10">
+    <div class="container">
+      <div class="pb-[70px]">
+        <div class="flex flex-wrap mx-[-16px]">
+          <div class="w-full px-4">
+            <div class="max-w-[600px] mx-auto text-center mb-[50px]">
+              <h2 class="font-bold text-black text-3xl sm:text-4xl md:text-[45px] mb-5">From The Blog</h2>
+              <h3 class="font-bold text-black text-2xl sm:text-3xl text-body-color mb-8">Tag: {tag}</h3>
+            </div>
+          </div>
+        </div>
+        <BlogList posts={sortedPost} />
+      </div>
+    </div>
+  </section>
+</Layout>

@@ -1,16 +1,15 @@
 ---
-layout: ../../layouts/BlogLayout.astro
 title: "Sign a pdf contract on mac in 30 seconds"
-date: 2014-02-27
-description: 'test test'
-tags: ["freelancing"]
-published: true
-lang: "en"
+draft: false
+snippet: 'How did I miss this for so long? I finally found the easiest and free way to sign pdf contract on mac with Preview. It will only require a webcam.'
+pubDate: 2014-02-27
+category: Tutorials
+tags:
+  - freelancing
 ---
 
 How did I miss this for so long? I finally found the easiest and free way to sign pdf contract on mac with Preview. It will only require a webcam.
 
-<!-- more -->
 
 These are the steps:
 

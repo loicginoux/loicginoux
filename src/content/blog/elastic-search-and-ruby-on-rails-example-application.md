@@ -1,14 +1,13 @@
 ---
-layout: ../../layouts/BlogLayout.astro
-title: "elastic search and Ruby on Rails example application"
-date: 2014-06-26
-description: 'test test'
-tags: ["search", "elastic-search"]
+title: Elastic search and Ruby on Rails example application
+pubDate: 2014-06-26
+snippet: a small demo App to show how to use elastic search with Ruby on Rails
+tags:
+  - search
+  - elastic-search
 published: true
-frontpage: true
-lang: "en"
+category: Code sharing
 ---
-
 I realised I didn't have any project I could show when people where asking if I knew how to use elastic search. I have just done a really small application to show what this tool has to offer.
 
 

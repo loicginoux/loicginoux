@@ -1,13 +1,14 @@
 ---
-layout: ../../layouts/BlogLayout.astro
-title: "My check-list to make performance improvement to a Rails app"
-date: 2013-07-13
-description: 'test test'
-tags: ["performance", rails"]
+title: My check-list to make performance improvement to a Rails app
+pubDate: 2013-07-13
+snippet: Few things not to forget if you want your app to be a bit optimized
+tags:
+  - performance
+  - rails
 published: true
-lang: "en"
+lang: en
+category: Tips
 ---
-
 In a recent project, I had to make the app faster. I could work on both the front end and the back-end. The is an unordered list but you should first know where is your bottleneck in your app with the help of tools like the webkit debug tool, pageSpeed or an app like New Relic. Learning how to find the bottleneck on an app is not the matter of this post. I just list here few things not to forget if you want your app to be a bit optimized.
 Let’s see that.
 

@@ -1,19 +1,14 @@
 ---
-layout: ../../layouts/BlogLayout.astro
-title: "About this and the lost of the context "
-date: 2013-08-12
-description: 'test test'
-tags: ["javascript"]
+title: About this and the lost of the context
+pubDate: 2013-08-12
+snippet: As a javascript developer you will at one time or another find the common problem where you have something undefined because the _this_ refers to the global window object
+tags:
+  - javascript
 published: true
-lang: "en"
+lang: en
+category: Tutorials
 ---
-
-
-
-
 As a javascript developer you will at one time or another find the common problem where you have something undefined because the _this_ refers to the global window object.
-
-<!-- more -->
 
 Let see an example:
 
@@ -73,5 +68,3 @@ The solution is to manually tell javascript that we want the _this_ to refer to 
 
 
 I know about this and I usually correct the error directly when it occurs, but I had to write it down to be able to explain it and put it in words. Now that _this_ is explained, I shouldn’t wait for the error to come up and fix but see directly when I will loose the context and fix it straight away.
-
-
