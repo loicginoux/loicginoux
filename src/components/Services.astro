@@ -1,5 +1,15 @@
 ---
 import Service from '@components/Service.astro';
+import { getCollection } from 'astro:content';
+import { getLangFromUrl } from '@i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+var services = await getCollection("services");
+var localizedServices = services.filter((entry) => {
+  return entry.slug.startsWith(lang)
+}).sort(
+  (a, b) => a.data.position - b.data.position
+);
 ---
 <section id="services">
   <div class="container">
@@ -15,46 +25,11 @@ import Service from '@components/Service.astro';
       </div>
 
       <div class="flex flex-wrap mx-[-16px]">
-        <Service
-          title="CTO"
-          description="You are building a SaaS product and need a CTO for your Minimum Viable Product?"
-          logo="cto"
-        />
-        <Service
-          title="Technical audit"
-          description="Do you need to run technical audits and check that it follows the best practices and conventions?"
-          logo="audit"
-        />
-        <Service
-          title="Complex feature development"
-          description="These require a high level of expertise."
-          logo="construction"
-        />
-        <Service
-          title="Performance optimisation"
-          description="Is your web application painfully slow to use? Let's improve it."
-          logo="perf"
-        />
-        <Service
-          title="Upgrade your app"
-          description="Your app has a few years, it's time to upgrade it. This is key for the health and the speed of your website."
-          logo="upgrade"
-        />
-        <Service
-          title="Prototype and MVP"
-          description="As an entrepreneur starting its own company, quickly validating your idea is key."
-          logo="mvp"
-        />
-        <Service
-          title="Teaching"
-          description="Does your team need to learn a new technology or framework ? I'd be happy to share my knowledge."
-          logo="users"
-        />
-        <Service
-          title="Refactoring"
-          description="Do you have a complex legacy code that needs restructuration and refactoring?"
-          logo="refacto"
-        />
+        {
+          localizedServices.map((service) => (
+            <Service service={service} />
+          ))
+        }
       </div>
     </div>
   </div>

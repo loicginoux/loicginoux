@@ -1,5 +1,5 @@
 ---
-const { title, description, logo } = Astro.props;
+const { title, intro, logo } = Astro.props.service.data;
 ---
 <div class="w-full md:w-1/2 xl:w-1/4 px-4">
   <div class="bg-white group hover:bg-primary shadow-service py-10 px-8 rounded-xl relative z-10 overflow-hidden text-center duration-200 mb-8">
@@ -51,7 +51,7 @@ const { title, description, logo } = Astro.props;
       }
     </div>
     <h3 class="font-bold text-black text-xl sm:text-2xl lg:text-xl 2xl:text-2xl group-hover:text-white mb-3">{title}</h3>
-    <p class="font-medium text-body-color group-hover:text-white leading-relaxed text-sm">{description}</p>
+    <p class="font-medium text-body-color group-hover:text-white leading-relaxed text-sm">{intro}</p>
     <div>
       <span class="absolute top-0 right-0 -z-1">
         <svg width="218" height="109" viewBox="0 0 218 109" fill="none" xmlns="http://www.w3.org/2000/svg">
