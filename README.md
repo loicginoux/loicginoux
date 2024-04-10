@@ -1,4 +1,7 @@
 template from https://portfolio-tailwind.preview.uideck.com/demos/personal/
+admin CMS: https://github.com/sveltia/sveltia-cms
+admin auth: https://github.com/sveltia/sveltia-cms-auth
+hosting: Netlify
 
 ## 🧞 Commands
 
