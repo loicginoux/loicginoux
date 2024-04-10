@@ -12,14 +12,47 @@ backend:
 media_folder: "public/images/blog/"
 public_folder: "/blog/images"
 
-# i18n:
-#     structure: "multiple_folders"
-#     locales: ["en"]
-#     default_locale: "en"
+i18n:
+    structure: "multiple_folders"
+    locales: ["en", "fr"]
+    default_locale: "en"
 
 collections:
-    - name: "posts"
+    - name: "services"
       i18n: true
+      label: "My services"
+      folder: "src/content/services"
+      create: true
+      delete: true
+      fields:
+        - name: "title"
+          widget: "string"
+          label: "Title"
+          i18n: true
+        - name: "position"
+          widget: "number"
+          label: "Position"
+          i18n: duplicate
+        - name: "logo"
+          widget: "select"
+          options: [
+            "audit",
+            "perf",
+            "cto",
+            "mvp",
+            "upgrade",
+            "refacto",
+            "construction",
+            "users"
+          ]
+          i18n: duplicate
+        - name: "intro"
+          widget: "markdown"
+          label: "Intro"
+          i18n: true
+
+    - name: "posts"
+      i18n: duplicate
       label: "Blog Posts"
       folder: "src/content/blog"
       create: true
@@ -28,33 +61,26 @@ collections:
           - name: "title"
             widget: "string"
             label: "Post Title"
-            i18n: true
           - label: "Published"
             name: "published"
             widget: "boolean"
-            i18n: "duplicate"
           - label: "Tags"
             name: "tags"
             widget: "list"
-            i18n: true
           - label: "Image"
             name: "image"
             widget: "object"
-            i18n: true
             required: false
-
             fields:
-                - { label: Source, name: src, widget: image, i18n: "duplicate" }
-                - { label: Alt Text, name: alt, widget: string, i18n: true }
+                - { label: Source, name: src, widget: image }
+                - { label: Alt Text, name: alt, widget: string }
           - label: "Snippet"
             name: "snippet"
             widget: "text"
-            i18n: true
           - label: "Publish Date"
             name: "pubDate"
             widget: "datetime"
             format: "YYYY-MM-DD HH:mm"
-            i18n: "duplicate"
           - label: "Category"
             name: "category"
             widget: "select"
@@ -67,8 +93,6 @@ collections:
               "Tips",
               "Others"
             ]
-            i18n: "duplicate"
           - name: "body"
             widget: "markdown"
             label: "Post Body"
-            i18n: true

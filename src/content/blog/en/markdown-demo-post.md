@@ -1,7 +1,7 @@
 ---
 title: Markdown elements demo pos
 pubDate: 2020-08-12
-snippet: Markdown elements demo post
+snippet: Markdown demo post
 tags:
   - javascript
 published: false

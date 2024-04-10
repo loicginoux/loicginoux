@@ -1,5 +1,15 @@
 ---
 import Service from '@components/Service.astro';
+import { getCollection } from 'astro:content';
+import { getLangFromUrl } from '@i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+var services = await getCollection("services");
+var localizedServices = services.filter((entry) => {
+  return entry.slug.startsWith(lang)
+}).sort(
+  (a, b) => a.data.position - b.data.position
+);
 ---
 <section id="services">
   <div class="container">
@@ -15,46 +25,11 @@ import Service from '@components/Service.astro';
       </div>
 
       <div class="flex flex-wrap mx-[-16px]">
-        <Service
-          title="CTO"
-          description="Vous construisez un produit SaaS et avez besoin d'un directeur technique pour votre produit minimum viable ?"
-          logo="cto"
-        />
-        <Service
-          title="Audit technique"
-          description="Avez-vous besoin de réaliser des audits techniques et de vérifier qu'il suit les meilleures pratiques et conventions ?"
-          logo="audit"
-        />
-        <Service
-          title="Développements complexes"
-          description="Celles-ci nécessitent un haut niveau d'expertise."
-          logo="construction"
-        />
-        <Service
-          title="Optimisation des performances"
-          description="Votre application web est-elle douloureusement lente à utiliser ? Améliorons cela."
-          logo="perf"
-        />
-        <Service
-          title="Upgrade de votre application"
-          description="Votre application a quelques années ? Il est temps de la mettre à jour. C'est crucial pour la santé et la rapidité de votre site web."
-          logo="upgrade"
-        />
-        <Service
-          title="Prototype et MVP"
-          description="En tant qu'entrepreneur lançant sa propre entreprise, valider rapidement votre idée est essentiel."
-          logo="mvp"
-        />
-        <Service
-          title="Enseignement"
-          description="Votre équipe a-t-elle besoin d'apprendre une nouvelle technologie ou un nouveau framework ? Je serais ravi de partager mes connaissances."
-          logo="users"
-        />
-        <Service
-          title="Refactoring"
-          description="Avez-vous un code hérité complexe qui nécessite une restructuration et un refactoring ?"
-          logo="refacto"
-        />
+        {
+          localizedServices.map((service) => (
+            <Service service={service} />
+          ))
+        }
       </div>
     </div>
   </div>
