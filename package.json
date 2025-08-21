@@ -15,11 +15,11 @@
     "tailwindcss": "^3.3.5"
   },
   "dependencies": {
-    "@astrojs/netlify": "^4.1.0",
+    "@astrojs/netlify": "^6.5.7",
     "@astrojs/sitemap": "^3.0.4",
-    "@astrojs/tailwind": "^5.1.0",
+    "@astrojs/tailwind": "^5.1.5",
     "ajv-keywords": "^5.1.0",
-    "astro": "^4.16.19",
+    "astro": "^5.13.2",
     "astro-robots-txt": "^1.0.0",
     "imagesloaded": "^5.0.0",
     "isotope-layout": "^3.0.6",
